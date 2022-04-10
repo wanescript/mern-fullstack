@@ -1,10 +1,8 @@
 const express = require('express')
 const app = express()
-const PORT = process.env.key ||5000
+const PORT = process.env.PORT ||5000
+const {getGoals,setGoals,updateGoals,deleteGoals}= require('./controllers/goalsController')
 
-app.get('/', (req,res)=> {
-    res.send('home route')
-    console.log('root route')
-})
+app.use('/api/goals', require('./routes/goals'))
 
 app.listen(PORT,()=>{`Server is up and running on localhost://${PORT}`})
