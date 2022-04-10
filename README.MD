@@ -1,0 +1,1 @@
+Full stack MEARN application for portfolio and studying purposes.

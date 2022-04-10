@@ -3,13 +3,21 @@ const { getGoals, setGoals, updateGoals, deleteGoals } = require('../controllers
 const router = express.Router()
 
 
-router.get('/', (getGoals))
+//below is a short cut to chain on multiple functions
+router.route('/').get(getGoals).post(setGoals)
+router.route('/:id').put(updateGoals).delete(deleteGoals)
 
-router.post('/', (setGoals))
 
-router.put('/:id', (updateGoals))
 
-router.delete('/:id', (deleteGoals))
+
+
+
+
+//Below are the regular examples of simplifying routes and controller functions
+
+// router.put('/:id', (updateGoals))
+
+// router.delete('/:id', (deleteGoals))
 
 
 module.exports = router
