@@ -4,6 +4,9 @@ const PORT = process.env.PORT ||5000
 const dotenv = require('dotenv').config()
 const {getGoals,setGoals,updateGoals,deleteGoals}= require('./controllers/goalsController')
 const {errorHandler} = require('./middleware/errorMiddleware')
+const connectDb = require('./config/db')
+
+connectDb()
 
 //two lines below enables you to read form input
 app.use(express.json())
