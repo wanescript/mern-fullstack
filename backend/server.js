@@ -6,13 +6,18 @@ const {getGoals,setGoals,updateGoals,deleteGoals}= require('./controllers/goalsC
 const {errorHandler} = require('./middleware/errorMiddleware')
 const connectDb = require('./config/db')
 
+//connect function for database.
 connectDb()
 
 //two lines below enables you to read form input
 app.use(express.json())
 app.use(express.urlencoded({extended:false}))
+
+//2 specific route endpoints below for goals and users.
 app.use('/api/goals', require('./routes/goals'))
 app.use('/api/users', require('./routes/userRoutes'))
+
+//below is the async error handling middleware.
 app.use(errorHandler)
 
 app.listen(PORT,()=>{`Server is up and running on localhost://${PORT}`})
