@@ -10,7 +10,7 @@ CRUD functionality in the controller folder, which is located inside the backend
 //@access Private
 
 const getGoals = asyncHandler (async(req,res)=>{
-    const goals = await Goal.find()
+    const goals = await Goal.find({user: req.user.id})
     res.status(200).json(goals)
 })
 //@description Set/CREATE goal
@@ -23,7 +23,8 @@ const setGoals = asyncHandler (async(req,res)=>{
         throw new Error('please enter the correct key name')
     }
     const goal = await Goal.create({
-        text: req.body.text
+        text: req.body.text,
+        user: req.user.id
     })
     res.status(200).json(goal)
     // console.log(req.body)
