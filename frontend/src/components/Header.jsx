@@ -9,9 +9,9 @@ function Header() {
             <Link to= '/'>GoalSetter</Link>
         </div>
         <ul>
-            <li>
-                <Link to='/'>
-                    <FaSignInAlt/>Goalsetter
+        <li>
+                <Link to='/register'>
+                    <FaUser/>Register
                 </Link>
             </li>
             <li>
@@ -20,10 +20,12 @@ function Header() {
                 </Link>
             </li>
             <li>
-                <Link to='/register'>Register
-                    <FaUser/>
+                <Link to='/'>
+                    <FaSignInAlt/>Goals
                 </Link>
             </li>
+            
+            
         </ul>
     </header>
   )
