@@ -1,4 +1,4 @@
-//wrapping each function with the async handler package
+//wrap each function with the async handler package
 const asyncHandler = require('express-async-handler')
 const Goal = require('../models/goalModels')
 const User = require('../models/userModel')
