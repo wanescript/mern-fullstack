@@ -1,5 +1,5 @@
 const express = require('express')
-const { getGoals, setGoals, updateGoals, deleteGoals } = require('../controllers/goalsController')
+const { getGoals, setGoals, updateGoals, deleteGoals } = require('../controllers/notesController')
 const router = express.Router()
 const {protect} = require('../middleware/authMiddleware')
 

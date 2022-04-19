@@ -43,6 +43,16 @@ h3 {
   text-align: center;
 }
 
+.home-container {
+  background-color: #0e0d0d;
+  color: whitesmoke;
+  width: 600px;
+  margin: auto;
+  padding:25px;
+  border-radius: 10px;
+  text-align: justify;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -169,6 +179,16 @@ h3 {
   transform: scale(0.98);
 }
 
+h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color:olive;
+}
+
+span {
+  color: orange
+}
 .loadingSpinnerContainer {
   position: fixed;
   top: 0;
@@ -211,5 +231,9 @@ h3 {
 
   .heading p {
     font-size: 1.5rem;
+  }
+  .home-container {
+    background-color: #828282;
+    min-width: 350px;
   }
 }

@@ -2,7 +2,9 @@ import React from "react"
 
 function Login() {
   return (
-    <div>Login</div>
+    <div>| Login |
+      <p>Welcome User you are logged in.</p>
+    </div>
   )
 }
 

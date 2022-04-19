@@ -1,12 +1,14 @@
 import React from 'react'
-import {FaSignInAlt, FaSignOutAlt, FaUser} from 'react-icons/fa'
+import {FaUser} from 'react-icons/fa'
+import {AiOutlineLogin, AiOutlineSnippets, AiOutlineBook} from 'react-icons/ai'
 import {Link} from 'react-router-dom'
 
 function Header() {
   return (
     <header className='header'>
         <div className='logo'>
-            <Link to= '/'>GoalSetter</Link>
+            <Link to= '/'>
+                <AiOutlineBook/>Codetaker</Link>
         </div>
         <ul>
         <li>
@@ -16,12 +18,13 @@ function Header() {
             </li>
             <li>
                 <Link to='/login'>
-                    <FaSignOutAlt/>Login
+                    <AiOutlineLogin/>Login
+                    
                 </Link>
             </li>
             <li>
-                <Link to='/'>
-                    <FaSignInAlt/>Goals
+                <Link to='/notes-dashboard'>
+                    <AiOutlineSnippets/>Notes
                 </Link>
             </li>
             

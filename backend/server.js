@@ -14,7 +14,7 @@ app.use(express.json())
 app.use(express.urlencoded({extended:false}))
 
 //2 specific route endpoints below for goals and users.
-app.use('/api/goals', require('./routes/goals'))
+app.use('/api/notes', require('./routes/notes'))
 app.use('/api/users', require('./routes/userRoutes'))
 
 //below is the async error handling middleware.
