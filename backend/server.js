@@ -2,7 +2,7 @@ const express = require('express')
 const app = express()
 const PORT = process.env.PORT ||5000
 const dotenv = require('dotenv').config()
-const {getGoals,setGoals,updateGoals,deleteGoals}= require('./controllers/goalsController')
+const {getGoals,setGoals,updateGoals,deleteGoals}= require('./controllers/notesController')
 const {errorHandler} = require('./middleware/errorMiddleware')
 const connectDb = require('./config/db')
 

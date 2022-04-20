@@ -6,6 +6,7 @@ import Register from './pages/Register';
 import Notes from './pages/Notes';
 import Home from './pages/Home';
 import Header from './components/Header';
+import Footer from './components/Footer'
 import { AiOutlineBook} from 'react-icons/ai'
 
 
@@ -25,6 +26,7 @@ function App() {
         <Route path='/notes-dashboard' element={<Dashboard/>}/>
     
      </Routes>
+     <Footer/>
     </div>
     </Router>
     </>

@@ -1,6 +1,6 @@
 //wrap each function with the async handler package
 const asyncHandler = require('express-async-handler')
-const Goal = require('../models/goalModels')
+const Goal = require('../models/notesModels')
 const User = require('../models/userModel')
 /*
 CRUD functionality in the controller folder, which is located inside the backend folder. */
