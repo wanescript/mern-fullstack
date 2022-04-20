@@ -2,6 +2,12 @@
 
 A basic CRUD fullstack application that lets registered and logged in users write and save code snippets. This app is intended to help web developers of all experience levels.
 
+==================================================
+
+It's suggested to run the following command to install the packages that are needed.
+
+=================================================
+>npm install
 ## Instructions for application
 The following scripts are used to run the codetaker application. Scripts must be ran in the root directory. You can navigate to the package.json file in the root directory, to view the following scripts.
 
