@@ -27,6 +27,12 @@ To run the front-end application
 ### ___Regular start script___
 >npm run client
 
+---
+
+To run both front-end and back-end simultaneously.
+### ___Concurrent start script___
+>npm run dev
+
 
 ====================
 
