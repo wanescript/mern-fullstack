@@ -1,44 +1,48 @@
 //wrap each function with the async handler package
 const asyncHandler = require('express-async-handler')
-const Goal = require('../models/notesModels')
+
+//models for the controller
+const Notes = require('../models/notesModels')
 const User = require('../models/userModel')
+
 /*
-CRUD functionality in the controller folder, which is located inside the backend folder. */
+CRUD functionality for the controller,
+which is located inside the backend folder. */
 
 
-//@description Get/READ goals
-//@route  GET/api/goals
+//@description Get/READ notes
+//@route  GET/api/notes
 //@access Private
 
-const getGoals = asyncHandler (async(req,res)=>{
-    const goals = await Goal.find({user: req.user.id})
-    res.status(200).json(goals)
+const getNotes = asyncHandler (async(req,res)=>{
+    const notes = await Notes.find({user: req.user.id})
+    res.status(200).json(notes)
 })
 //@description Set/CREATE goal
-//@route  POST/api/goals
+//@route  POST/api/notes
 //@access Private
 
-const setGoals = asyncHandler (async(req,res)=>{
+const setNotes = asyncHandler (async(req,res)=>{
     if(!req.body.text){
         res.status(400)
         throw new Error('please enter the correct key name')
     }
-    const goal = await Goal.create({
+    const notes = await Notes.create({
         text: req.body.text,
         user: req.user.id
     })
-    res.status(200).json(goal)
+    res.status(200).json(notes)
     // console.log(req.body)
     
 })
-//@description Update goals
-//@route  PUT /api/goals/:id
+//@description Update notes
+//@route  PUT /api/notes/:id
 //@access Private
 
-const updateGoals = asyncHandler (async(req,res)=>{
-    const goal = await Goal.findById(req.params.id)
+const updateNotes = asyncHandler (async(req,res)=>{
+    const notes = await Notes.findById(req.params.id)
     
-    if(!goal){
+    if(!notes){
         res.status(400)
         throw new Error('Goal not found');
     }
@@ -52,26 +56,26 @@ const updateGoals = asyncHandler (async(req,res)=>{
     }
 
     //make sure logged in user match goal user
-    if(goal.user.toString() !== req.user.id){
+    if(notes.user.toString() !== req.user.id){
         res.status(401)
         throw new Error('User not authorized')
 
     }
 
-    const updatedGoal = await Goal.findByIdAndUpdate(req.params.id,req.body,{new:true})
+    const updatedNOtes = await Notes.findByIdAndUpdate(req.params.id,req.body,{new:true})
 
-    res.status(200).json(updatedGoal)
-    // console.log(`update goals function is coming from the controller folder.${req.params.id}`)
+    res.status(200).json(updatedNotes)
+    // console.log(`update notes function is coming from the controller folder.${req.params.id}`)
 })
-//@description Delete goals
-//@route  DELETE/api/goals/:id
+//@description Delete notes
+//@route  DELETE/api/notes/:id
 //@access Private
 
-const deleteGoals = asyncHandler (async(req,res)=>{
-    const goal = await Goal.findById(req.params.id)
+const deleteNotes = asyncHandler (async(req,res)=>{
+    const notes = await Notes.findById(req.params.id)
       
     
-    if(!goal){
+    if(!notes){
         res.status(400)
         throw new Error('Goal not found');
     }
@@ -85,21 +89,21 @@ const deleteGoals = asyncHandler (async(req,res)=>{
         }
     
         //make sure logged in user match goal user
-        if(goal.user.toString() !== req.user.id){
+        if(notes.user.toString() !== req.user.id){
             res.status(401)
             throw new Error('User not authorized')
     
         }
 
-    await goal.remove()
+    await notes.remove()
 
     res.status(200).json({id:req.params.id})
 })
 
 
 module.exports = {
-    getGoals,
-    setGoals,
-    updateGoals,
-    deleteGoals
+    getNotes,
+    setNotes,
+    updateNotes,
+    deleteNotes
 }

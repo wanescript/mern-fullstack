@@ -1,10 +1,10 @@
 # Full stack MERN application 
 
-A basic CRUD fullstack application that lets registered and logged in users write and save code snippets. This app is intended to help web developers of all experience levels.
+A basic CRUD fullstack application that lets registered users write and save code snippets. This app is intended to help web developers of all experience levels.
 
 ==================================================
 
-It's suggested to run the following command to install the packages that are needed.
+It's suggested to run the following commands to install the packages that are needed.
 
 =================================================
 >npm install
@@ -26,3 +26,15 @@ To run the front-end application
 
 ### ___Regular start script___
 >npm run client
+
+
+====================
+
+RESOURCES: Software used for this project.
+
+
+[React](https://reactjs.org "Javascript front-end framework.")
+
+[React-app docs](https://create-react-app.dev "Docs for creating a react app.")
+
+[Redux](https://react-redux.js.org "Software used for state management.")
