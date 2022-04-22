@@ -20,6 +20,7 @@ function Dashboard() {
    <>
    <section className='heading'>
      <h1>Welcome {user && user.name}</h1>
+     <p>Notes dashboard</p>
    </section>
    </>
   )
