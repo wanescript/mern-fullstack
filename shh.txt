@@ -1,0 +1,843 @@
+--- Process 5936 created
+--- Process 5936 loaded C:\Windows\System32\ntdll.dll at 00007ff94ceb0000
+--- Process 5936 loaded C:\Windows\System32\kernel32.dll at 00007ff94c4e0000
+--- Process 5936 loaded C:\Windows\System32\KernelBase.dll at 00007ff94aa20000
+--- Process 5936 thread 8676 created
+--- Process 5936 thread 12372 created
+--- Process 5936 thread 12196 created
+--- Process 5936 loaded C:\Program Files\Git\usr\bin\msys-2.0.dll at 0000000180040000
+--- Process 5936 loaded C:\Program Files\Git\usr\bin\msys-gcc_s-seh-1.dll at 00000005e8160000
+--- Process 5936 loaded C:\Program Files\Git\usr\bin\msys-gssapi-3.dll at 00000004f53c0000
+--- Process 5936 loaded C:\Program Files\Git\usr\bin\msys-z.dll at 000000017b110000
+--- Process 5936 loaded C:\Program Files\Git\usr\bin\msys-com_err-1.dll at 0000000419420000
+--- Process 5936 loaded C:\Program Files\Git\usr\bin\msys-heimntlm-0.dll at 00000005fe970000
+--- Process 5936 loaded C:\Program Files\Git\usr\bin\msys-heimbase-1.dll at 00000005889a0000
+--- Process 5936 loaded C:\Program Files\Git\usr\bin\msys-asn1-8.dll at 00000004901d0000
+--- Process 5936 loaded C:\Program Files\Git\usr\bin\msys-krb5-26.dll at 00000004e6ec0000
+--- Process 5936 loaded C:\Program Files\Git\usr\bin\msys-roken-18.dll at 00000005fe2a0000
+--- Process 5936 loaded C:\Program Files\Git\usr\bin\msys-crypto-1.1.dll at 000000058b980000
+--- Process 5936 loaded C:\Program Files\Git\usr\bin\msys-hcrypto-4.dll at 00000004a4450000
+--- Process 5936 loaded C:\Program Files\Git\usr\bin\msys-hcrypto-4.dll at 0000000000170000
+--- Process 5936 unloaded DLL at 0000000000170000
+--- Process 5936 loaded C:\Program Files\Git\usr\bin\msys-wind-0.dll at 0000000000170000
+--- Process 5936 unloaded DLL at 0000000000170000
+--- Process 5936 loaded C:\Program Files\Git\usr\bin\msys-wind-0.dll at 0000000497010000
+--- Process 5936 loaded C:\Program Files\Git\usr\bin\msys-crypt-0.dll at 000000043dbf0000
+--- Process 5936 loaded C:\Program Files\Git\usr\bin\msys-crypt-0.dll at 0000000000170000
+--- Process 5936 unloaded DLL at 0000000000170000
+--- Process 5936 loaded C:\Program Files\Git\usr\bin\msys-sqlite3-0.dll at 0000001d798a0000
+--- Process 5936 loaded C:\Program Files\Git\usr\bin\msys-hx509-5.dll at 000000047f610000
+    0       0 [main] ssh (5936) **********************************************
+  354     354 [main] ssh (5936) Program name: C:\Program Files\Git\usr\bin\ssh.exe (windows pid 5936)
+  142     496 [main] ssh (5936) OS version:   Windows NT-10.0
+  131     627 [main] ssh (5936) **********************************************
+--- Process 5936 loaded C:\Windows\System32\advapi32.dll at 00007ff94bb50000
+--- Process 5936 loaded C:\Windows\System32\msvcrt.dll at 00007ff94c620000
+--- Process 5936 loaded C:\Windows\System32\sechost.dll at 00007ff94cdd0000
+--- Process 5936 loaded C:\Windows\System32\rpcrt4.dll at 00007ff94b9b0000
+--- Process 5936 loaded C:\Windows\System32\cryptbase.dll at 00007ff949e50000
+--- Process 5936 loaded C:\Windows\System32\bcryptprimitives.dll at 00007ff94ae80000
+ 5744    6371 [main] ssh (5936) sigprocmask: 0 = sigprocmask (0, 0x0, 0x180324D90)
+  483    6854 [main] ssh (5936) open_shared: name shared.5, n 5, shared 0x180030000 (wanted 0x180030000), h 0xFC, *m 6
+  189    7043 [main] ssh (5936) user_heap_info::init: heap base 0x800000000, heap top 0x800000000, heap size 0x20000000 (536870912)
+  216    7259 [main] ssh (5936) open_shared: name S-1-5-21-3475727991-2128748601-2276411525-1001.1, n 1, shared 0x180020000 (wanted 0x180020000), h 0x100, *m 6
+  170    7429 [main] ssh (5936) user_info::create: opening user shared for 'S-1-5-21-3475727991-2128748601-2276411525-1001' at 0x180020000
+  168    7597 [main] ssh (5936) user_info::create: user shared version AB1FCCE8
+  209    7806 [main] ssh (5936) fhandler_pipe::create: name \\.\pipe\msys-1888ae32e00d56aa-5936-sigwait, size 11440, mode PIPE_TYPE_MESSAGE
+  207    8013 [main] ssh (5936) fhandler_pipe::create: pipe read handle 0x118
+  115    8128 [main] ssh (5936) fhandler_pipe::create: CreateFile: name \\.\pipe\msys-1888ae32e00d56aa-5936-sigwait
+  162    8290 [main] ssh (5936) fhandler_pipe::create: pipe write handle 0x11C
+  220    8510 [main] ssh (5936) dll_crt0_0: finished dll_crt0_0 initialization
+--- Process 5936 thread 8612 created
+ 2184   10694 [sig] ssh (5936) wait_sig: entering ReadFile loop, my_readsig 0x118, my_sendsig 0x11C
+  539   11233 [main] ssh (5936) time: 1650582138 = time(0x0)
+  406   11639 [main] ssh (5936) mount_info::conv_to_posix_path: conv_to_posix_path (C:\Users\PC\desktop\mern-fullstack, 0x0, no-add-slash)
+  254   11893 [main] ssh (5936) normalize_win32_path: C:\Users\PC\desktop\mern-fullstack = normalize_win32_path (C:\Users\PC\desktop\mern-fullstack)
+  122   12015 [main] ssh (5936) mount_info::conv_to_posix_path:  mount[0] .. checking / -> C:\Program Files\Git 
+  116   12131 [main] ssh (5936) mount_info::conv_to_posix_path:  mount[1] .. checking /bin -> C:\Program Files\Git\usr\bin 
+  105   12236 [main] ssh (5936) mount_info::conv_to_posix_path:  mount[2] .. checking /tmp -> C:\Users\PC\AppData\Local\Temp 
+  114   12350 [main] ssh (5936) mount_info::conv_to_posix_path: /c/Users/PC/desktop/mern-fullstack = conv_to_posix_path (C:\Users\PC\desktop\mern-fullstack)
+  217   12567 [main] ssh (5936) sigprocmask: 0 = sigprocmask (0, 0x0, 0x800018130)
+  623   13190 [main] ssh (5936) _cygwin_istext_for_stdio: fd 0: not open
+  114   13304 [main] ssh (5936) _cygwin_istext_for_stdio: fd 1: not open
+  107   13411 [main] ssh (5936) _cygwin_istext_for_stdio: fd 2: not open
+  351   13762 [main] ssh (5936) open_shared: name cygpid.1101, n 1101, shared 0x180010000 (wanted 0x180010000), h 0x144, *m 2
+  153   13915 [main] ssh (5936) time: 1650582138 = time(0x0)
+  147   14062 [main] ssh 1101 pinfo::thisproc: myself dwProcessId 5936
+  168   14230 [main] ssh 1101 environ_init: GetEnvironmentStrings returned 0x769C00
+  436   14666 [main] ssh 1101 win32env_to_cygenv: 0x8000284F0: ACLOCAL_PATH=/mingw64/share/aclocal:/usr/share/aclocal
+  218   14884 [main] ssh 1101 win32env_to_cygenv: 0x800028530: ALLUSERSPROFILE=C:\ProgramData
+  200   15084 [main] ssh 1101 win32env_to_cygenv: 0x800028560: APPDATA=C:\Users\PC\AppData\Roaming
+  204   15288 [main] ssh 1101 win32env_to_cygenv: 0x800028590: CHROME_CRASHPAD_PIPE_NAME=\\.\pipe\crashpad_7436_SXSIBZRLMGUKORQQ
+  201   15489 [main] ssh 1101 win32env_to_cygenv: 0x8000285E0: COLORTERM=truecolor
+  200   15689 [main] ssh 1101 win32env_to_cygenv: 0x800028600: COMMONPROGRAMFILES=C:\Program Files\Common Files
+  230   15919 [main] ssh 1101 win32env_to_cygenv: 0x800028640: COMPUTERNAME=WANESCRIPT
+  200   16119 [main] ssh 1101 win32env_to_cygenv: 0x800028660: COMSPEC=C:\WINDOWS\system32\cmd.exe
+  202   16321 [main] ssh 1101 win32env_to_cygenv: 0x800028690: CONFIG_SITE=/etc/config.site
+  205   16526 [main] ssh 1101 win32env_to_cygenv: 0x8000286C0: CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files
+  196   16722 [main] ssh 1101 win32env_to_cygenv: 0x800028710: CommonProgramW6432=C:\Program Files\Common Files
+  211   16933 [main] ssh 1101 win32env_to_cygenv: 0x800028750: DISPLAY=needs-to-be-defined
+  310   17243 [main] ssh 1101 win32env_to_cygenv: 0x800028780: DriverData=C:\Windows\System32\Drivers\DriverData
+  308   17551 [main] ssh 1101 win32env_to_cygenv: 0x8000287C0: EXEPATH=C:\Program Files\Git\bin
+  284   17835 [main] ssh 1101 win32env_to_cygenv: 0x8000287F0: GIT_ASKPASS=c:\Users\PC\AppData\Local\Programs\Microsoft VS Code\resources\app\extensions\git\dist\askpass.sh
+  307   18142 [main] ssh 1101 win32env_to_cygenv: 0x800028870: GIT_LFS_PATH=C:\Program Files\Git LFS
+  289   18431 [main] ssh 1101 getwinenv: can't set native for HOME= since no environ yet
+  167   18598 [main] ssh 1101 mount_info::conv_to_posix_path: conv_to_posix_path (C:\Users\PC, 0x10000000, no-add-slash)
+  159   18757 [main] ssh 1101 normalize_win32_path: C:\Users\PC = normalize_win32_path (C:\Users\PC)
+  152   18909 [main] ssh 1101 mount_info::conv_to_posix_path:  mount[0] .. checking / -> C:\Program Files\Git 
+  116   19025 [main] ssh 1101 mount_info::conv_to_posix_path:  mount[1] .. checking /bin -> C:\Program Files\Git\usr\bin 
+  113   19138 [main] ssh 1101 mount_info::conv_to_posix_path:  mount[2] .. checking /tmp -> C:\Users\PC\AppData\Local\Temp 
+  119   19257 [main] ssh 1101 mount_info::conv_to_posix_path: /c/Users/PC = conv_to_posix_path (C:\Users\PC)
+  320   19577 [main] ssh 1101 win_env::add_cache: posix /c/Users/PC
+   99   19676 [main] ssh 1101 win_env::add_cache: native HOME=C:\Users\PC
+   97   19773 [main] ssh 1101 posify_maybe: env var converted to HOME=/c/Users/PC
+  328   20101 [main] ssh 1101 win32env_to_cygenv: 0x800028900: HOME=/c/Users/PC
+  196   20297 [main] ssh 1101 win32env_to_cygenv: 0x8000288A0: HOMEDRIVE=C:
+  218   20515 [main] ssh 1101 win32env_to_cygenv: 0x800028920: HOMEPATH=\Users\PC
+  207   20722 [main] ssh 1101 win32env_to_cygenv: 0x800028940: HOSTNAME=wanescript
+  241   20963 [main] ssh 1101 win32env_to_cygenv: 0x800028960: INFOPATH=/usr/local/info:/usr/share/info:/usr/info:/share/info
+  206   21169 [main] ssh 1101 win32env_to_cygenv: 0x8000289B0: LANG=en_US.UTF-8
+  217   21386 [main] ssh 1101 win32env_to_cygenv: 0x8000289D0: LOCALAPPDATA=C:\Users\PC\AppData\Local
+  197   21583 [main] ssh 1101 win32env_to_cygenv: 0x800028A00: LOGONSERVER=\\WANESCRIPT
+  203   21786 [main] ssh 1101 win32env_to_cygenv: 0x800028A30: MANPATH=/mingw64/local/man:/mingw64/share/man:/usr/local/man:/usr/share/man:/usr/man:/share/man
+  193   21979 [main] ssh 1101 win32env_to_cygenv: 0x800028AA0: MINGW_CHOST=x86_64-w64-mingw32
+  198   22177 [main] ssh 1101 win32env_to_cygenv: 0x800028AD0: MINGW_PACKAGE_PREFIX=mingw-w64-x86_64
+  197   22374 [main] ssh 1101 win32env_to_cygenv: 0x800028B00: MINGW_PREFIX=/mingw64
+  207   22581 [main] ssh 1101 parse_options: enable_pcon
+  160   22741 [main] ssh 1101 parse_options: returning
+   90   22831 [main] ssh 1101 win32env_to_cygenv: 0x800028B20: MSYS=enable_pcon
+  176   23007 [main] ssh 1101 win32env_to_cygenv: 0x800028B60: MSYSTEM=MINGW64
+  166   23173 [main] ssh 1101 win32env_to_cygenv: 0x800028B80: MSYSTEM_CARCH=x86_64
+  168   23341 [main] ssh 1101 win32env_to_cygenv: 0x800028BA0: MSYSTEM_CHOST=x86_64-w64-mingw32
+  167   23508 [main] ssh 1101 win32env_to_cygenv: 0x800028BD0: MSYSTEM_PREFIX=/mingw64
+  166   23674 [main] ssh 1101 win32env_to_cygenv: 0x800028BF0: NUMBER_OF_PROCESSORS=4
+  209   23883 [main] ssh 1101 getwinenv: can't set native for ORIGINAL_PATH= since no environ yet
+  180   24063 [main] ssh 1101 mount_info::conv_to_posix_path: conv_to_posix_path (C:\Program Files\Git\mingw64\bin, 0x10000100, no-add-slash)
+   90   24153 [main] ssh 1101 normalize_win32_path: C:\Program Files\Git\mingw64\bin = normalize_win32_path (C:\Program Files\Git\mingw64\bin)
+   90   24243 [main] ssh 1101 mount_info::conv_to_posix_path:  mount[0] .. checking / -> C:\Program Files\Git 
+   89   24332 [main] ssh 1101 mount_info::conv_to_posix_path: /mingw64/bin = conv_to_posix_path (C:\Program Files\Git\mingw64\bin)
+   91   24423 [main] ssh 1101 mount_info::conv_to_posix_path: conv_to_posix_path (C:\Program Files\Git\usr\bin, 0x10000100, no-add-slash)
+   89   24512 [main] ssh 1101 normalize_win32_path: C:\Program Files\Git\usr\bin = normalize_win32_path (C:\Program Files\Git\usr\bin)
+   89   24601 [main] ssh 1101 mount_info::conv_to_posix_path:  mount[0] .. checking / -> C:\Program Files\Git 
+   89   24690 [main] ssh 1101 mount_info::conv_to_posix_path: /usr/bin = conv_to_posix_path (C:\Program Files\Git\usr\bin)
+   90   24780 [main] ssh 1101 mount_info::conv_to_posix_path: conv_to_posix_path (C:\Users\PC\bin, 0x10000100, no-add-slash)
+  101   24881 [main] ssh 1101 normalize_win32_path: C:\Users\PC\bin = normalize_win32_path (C:\Users\PC\bin)
+   88   24969 [main] ssh 1101 mount_info::conv_to_posix_path:  mount[0] .. checking / -> C:\Program Files\Git 
+   90   25059 [main] ssh 1101 mount_info::conv_to_posix_path:  mount[1] .. checking /bin -> C:\Program Files\Git\usr\bin 
+   89   25148 [main] ssh 1101 mount_info::conv_to_posix_path:  mount[2] .. checking /tmp -> C:\Users\PC\AppData\Local\Temp 
+   90   25238 [main] ssh 1101 mount_info::conv_to_posix_path: /c/Users/PC/bin = conv_to_posix_path (C:\Users\PC\bin)
+   90   25328 [main] ssh 1101 mount_info::conv_to_posix_path: conv_to_posix_path (C:\WINDOWS\system32, 0x10000100, no-add-slash)
+   95   25423 [main] ssh 1101 normalize_win32_path: C:\WINDOWS\system32 = normalize_win32_path (C:\WINDOWS\system32)
+   91   25514 [main] ssh 1101 mount_info::conv_to_posix_path:  mount[0] .. checking / -> C:\Program Files\Git 
+   90   25604 [main] ssh 1101 mount_info::conv_to_posix_path:  mount[1] .. checking /bin -> C:\Program Files\Git\usr\bin 
+   90   25694 [main] ssh 1101 mount_info::conv_to_posix_path:  mount[2] .. checking /tmp -> C:\Users\PC\AppData\Local\Temp 
+   89   25783 [main] ssh 1101 mount_info::conv_to_posix_path: /c/WINDOWS/system32 = conv_to_posix_path (C:\WINDOWS\system32)
+   98   25881 [main] ssh 1101 mount_info::conv_to_posix_path: conv_to_posix_path (C:\WINDOWS, 0x10000100, no-add-slash)
+   89   25970 [main] ssh 1101 normalize_win32_path: C:\WINDOWS = normalize_win32_path (C:\WINDOWS)
+   89   26059 [main] ssh 1101 mount_info::conv_to_posix_path:  mount[0] .. checking / -> C:\Program Files\Git 
+   89   26148 [main] ssh 1101 mount_info::conv_to_posix_path:  mount[1] .. checking /bin -> C:\Program Files\Git\usr\bin 
+   90   26238 [main] ssh 1101 mount_info::conv_to_posix_path:  mount[2] .. checking /tmp -> C:\Users\PC\AppData\Local\Temp 
+   90   26328 [main] ssh 1101 mount_info::conv_to_posix_path: /c/WINDOWS = conv_to_posix_path (C:\WINDOWS)
+   89   26417 [main] ssh 1101 mount_info::conv_to_posix_path: conv_to_posix_path (C:\WINDOWS\System32\Wbem, 0x10000100, no-add-slash)
+   89   26506 [main] ssh 1101 normalize_win32_path: C:\WINDOWS\System32\Wbem = normalize_win32_path (C:\WINDOWS\System32\Wbem)
+   89   26595 [main] ssh 1101 mount_info::conv_to_posix_path:  mount[0] .. checking / -> C:\Program Files\Git 
+   89   26684 [main] ssh 1101 mount_info::conv_to_posix_path:  mount[1] .. checking /bin -> C:\Program Files\Git\usr\bin 
+  108   26792 [main] ssh 1101 mount_info::conv_to_posix_path:  mount[2] .. checking /tmp -> C:\Users\PC\AppData\Local\Temp 
+  119   26911 [main] ssh 1101 mount_info::conv_to_posix_path: /c/WINDOWS/System32/Wbem = conv_to_posix_path (C:\WINDOWS\System32\Wbem)
+  128   27039 [main] ssh 1101 mount_info::conv_to_posix_path: conv_to_posix_path (C:\WINDOWS\System32\WindowsPowerShell\v1.0, 0x10000100, no-add-slash)
+  101   27140 [main] ssh 1101 normalize_win32_path: C:\WINDOWS\System32\WindowsPowerShell\v1.0 = normalize_win32_path (C:\WINDOWS\System32\WindowsPowerShell\v1.0)
+  109   27249 [main] ssh 1101 mount_info::conv_to_posix_path:  mount[0] .. checking / -> C:\Program Files\Git 
+  107   27356 [main] ssh 1101 mount_info::conv_to_posix_path:  mount[1] .. checking /bin -> C:\Program Files\Git\usr\bin 
+  107   27463 [main] ssh 1101 mount_info::conv_to_posix_path:  mount[2] .. checking /tmp -> C:\Users\PC\AppData\Local\Temp 
+  108   27571 [main] ssh 1101 mount_info::conv_to_posix_path: /c/WINDOWS/System32/WindowsPowerShell/v1.0 = conv_to_posix_path (C:\WINDOWS\System32\WindowsPowerShell\v1.0)
+  109   27680 [main] ssh 1101 mount_info::conv_to_posix_path: conv_to_posix_path (C:\WINDOWS\System32\OpenSSH, 0x10000100, no-add-slash)
+  105   27785 [main] ssh 1101 normalize_win32_path: C:\WINDOWS\System32\OpenSSH = normalize_win32_path (C:\WINDOWS\System32\OpenSSH)
+  115   27900 [main] ssh 1101 mount_info::conv_to_posix_path:  mount[0] .. checking / -> C:\Program Files\Git 
+  107   28007 [main] ssh 1101 mount_info::conv_to_posix_path:  mount[1] .. checking /bin -> C:\Program Files\Git\usr\bin 
+   99   28106 [main] ssh 1101 mount_info::conv_to_posix_path:  mount[2] .. checking /tmp -> C:\Users\PC\AppData\Local\Temp 
+   91   28197 [main] ssh 1101 mount_info::conv_to_posix_path: /c/WINDOWS/System32/OpenSSH = conv_to_posix_path (C:\WINDOWS\System32\OpenSSH)
+   92   28289 [main] ssh 1101 mount_info::conv_to_posix_path: conv_to_posix_path (C:\Program Files\Git\cmd, 0x10000100, no-add-slash)
+   90   28379 [main] ssh 1101 normalize_win32_path: C:\Program Files\Git\cmd = normalize_win32_path (C:\Program Files\Git\cmd)
+   88   28467 [main] ssh 1101 mount_info::conv_to_posix_path:  mount[0] .. checking / -> C:\Program Files\Git 
+   90   28557 [main] ssh 1101 mount_info::conv_to_posix_path: /cmd = conv_to_posix_path (C:\Program Files\Git\cmd)
+  169   28726 [main] ssh 1101 mount_info::conv_to_posix_path: conv_to_posix_path (C:\Program Files\nodejs, 0x10000100, no-add-slash)
+   94   28820 [main] ssh 1101 normalize_win32_path: C:\Program Files\nodejs = normalize_win32_path (C:\Program Files\nodejs)
+  100   28920 [main] ssh 1101 mount_info::conv_to_posix_path:  mount[0] .. checking / -> C:\Program Files\Git 
+   90   29010 [main] ssh 1101 mount_info::conv_to_posix_path:  mount[1] .. checking /bin -> C:\Program Files\Git\usr\bin 
+   88   29098 [main] ssh 1101 mount_info::conv_to_posix_path:  mount[2] .. checking /tmp -> C:\Users\PC\AppData\Local\Temp 
+   90   29188 [main] ssh 1101 mount_info::conv_to_posix_path: /c/Program Files/nodejs = conv_to_posix_path (C:\Program Files\nodejs)
+   90   29278 [main] ssh 1101 mount_info::conv_to_posix_path: conv_to_posix_path (C:\Program Files\Git LFS, 0x10000100, no-add-slash)
+   90   29368 [main] ssh 1101 normalize_win32_path: C:\Program Files\Git LFS = normalize_win32_path (C:\Program Files\Git LFS)
+   89   29457 [main] ssh 1101 mount_info::conv_to_posix_path:  mount[0] .. checking / -> C:\Program Files\Git 
+   88   29545 [main] ssh 1101 mount_info::conv_to_posix_path:  mount[1] .. checking /bin -> C:\Program Files\Git\usr\bin 
+   89   29634 [main] ssh 1101 mount_info::conv_to_posix_path:  mount[2] .. checking /tmp -> C:\Users\PC\AppData\Local\Temp 
+   91   29725 [main] ssh 1101 mount_info::conv_to_posix_path: /c/Program Files/Git LFS = conv_to_posix_path (C:\Program Files\Git LFS)
+   90   29815 [main] ssh 1101 mount_info::conv_to_posix_path: conv_to_posix_path (C:\Program Files\Docker\Docker\resources\bin, 0x10000100, no-add-slash)
+  100   29915 [main] ssh 1101 normalize_win32_path: C:\Program Files\Docker\Docker\resources\bin = normalize_win32_path (C:\Program Files\Docker\Docker\resources\bin)
+   89   30004 [main] ssh 1101 mount_info::conv_to_posix_path:  mount[0] .. checking / -> C:\Program Files\Git 
+   89   30093 [main] ssh 1101 mount_info::conv_to_posix_path:  mount[1] .. checking /bin -> C:\Program Files\Git\usr\bin 
+   88   30181 [main] ssh 1101 mount_info::conv_to_posix_path:  mount[2] .. checking /tmp -> C:\Users\PC\AppData\Local\Temp 
+   93   30274 [main] ssh 1101 mount_info::conv_to_posix_path: /c/Program Files/Docker/Docker/resources/bin = conv_to_posix_path (C:\Program Files\Docker\Docker\resources\bin)
+   89   30363 [main] ssh 1101 mount_info::conv_to_posix_path: conv_to_posix_path (C:\ProgramData\DockerDesktop\version-bin, 0x10000100, no-add-slash)
+   90   30453 [main] ssh 1101 normalize_win32_path: C:\ProgramData\DockerDesktop\version-bin = normalize_win32_path (C:\ProgramData\DockerDesktop\version-bin)
+   89   30542 [main] ssh 1101 mount_info::conv_to_posix_path:  mount[0] .. checking / -> C:\Program Files\Git 
+   90   30632 [main] ssh 1101 mount_info::conv_to_posix_path:  mount[1] .. checking /bin -> C:\Program Files\Git\usr\bin 
+   89   30721 [main] ssh 1101 mount_info::conv_to_posix_path:  mount[2] .. checking /tmp -> C:\Users\PC\AppData\Local\Temp 
+   89   30810 [main] ssh 1101 mount_info::conv_to_posix_path: /c/ProgramData/DockerDesktop/version-bin = conv_to_posix_path (C:\ProgramData\DockerDesktop\version-bin)
+  106   30916 [main] ssh 1101 mount_info::conv_to_posix_path: conv_to_posix_path (C:\Users\PC\AppData\Local\Microsoft\WindowsApps, 0x10000100, no-add-slash)
+   91   31007 [main] ssh 1101 normalize_win32_path: C:\Users\PC\AppData\Local\Microsoft\WindowsApps = normalize_win32_path (C:\Users\PC\AppData\Local\Microsoft\WindowsApps)
+   88   31095 [main] ssh 1101 mount_info::conv_to_posix_path:  mount[0] .. checking / -> C:\Program Files\Git 
+   90   31185 [main] ssh 1101 mount_info::conv_to_posix_path:  mount[1] .. checking /bin -> C:\Program Files\Git\usr\bin 
+   89   31274 [main] ssh 1101 mount_info::conv_to_posix_path:  mount[2] .. checking /tmp -> C:\Users\PC\AppData\Local\Temp 
+   90   31364 [main] ssh 1101 mount_info::conv_to_posix_path: /c/Users/PC/AppData/Local/Microsoft/WindowsApps = conv_to_posix_path (C:\Users\PC\AppData\Local\Microsoft\WindowsApps)
+   95   31459 [main] ssh 1101 mount_info::conv_to_posix_path: conv_to_posix_path (C:\Users\PC\AppData\Local\Programs\Microsoft VS Code\bin, 0x10000100, no-add-slash)
+   92   31551 [main] ssh 1101 normalize_win32_path: C:\Users\PC\AppData\Local\Programs\Microsoft VS Code\bin = normalize_win32_path (C:\Users\PC\AppData\Local\Programs\Microsoft VS Code\bin)
+   90   31641 [main] ssh 1101 mount_info::conv_to_posix_path:  mount[0] .. checking / -> C:\Program Files\Git 
+   90   31731 [main] ssh 1101 mount_info::conv_to_posix_path:  mount[1] .. checking /bin -> C:\Program Files\Git\usr\bin 
+   88   31819 [main] ssh 1101 mount_info::conv_to_posix_path:  mount[2] .. checking /tmp -> C:\Users\PC\AppData\Local\Temp 
+   97   31916 [main] ssh 1101 mount_info::conv_to_posix_path: /c/Users/PC/AppData/Local/Programs/Microsoft VS Code/bin = conv_to_posix_path (C:\Users\PC\AppData\Local\Programs\Microsoft VS Code\bin)
+   91   32007 [main] ssh 1101 mount_info::conv_to_posix_path: conv_to_posix_path (C:\Program Files\heroku\bin, 0x10000100, no-add-slash)
+  105   32112 [main] ssh 1101 normalize_win32_path: C:\Program Files\heroku\bin = normalize_win32_path (C:\Program Files\heroku\bin)
+   94   32206 [main] ssh 1101 mount_info::conv_to_posix_path:  mount[0] .. checking / -> C:\Program Files\Git 
+   90   32296 [main] ssh 1101 mount_info::conv_to_posix_path:  mount[1] .. checking /bin -> C:\Program Files\Git\usr\bin 
+   89   32385 [main] ssh 1101 mount_info::conv_to_posix_path:  mount[2] .. checking /tmp -> C:\Users\PC\AppData\Local\Temp 
+   90   32475 [main] ssh 1101 mount_info::conv_to_posix_path: /c/Program Files/heroku/bin = conv_to_posix_path (C:\Program Files\heroku\bin)
+   91   32566 [main] ssh 1101 mount_info::conv_to_posix_path: conv_to_posix_path (C:\Users\PC\AppData\Roaming\npm, 0x10000100, no-add-slash)
+   90   32656 [main] ssh 1101 normalize_win32_path: C:\Users\PC\AppData\Roaming\npm = normalize_win32_path (C:\Users\PC\AppData\Roaming\npm)
+   90   32746 [main] ssh 1101 mount_info::conv_to_posix_path:  mount[0] .. checking / -> C:\Program Files\Git 
+   87   32833 [main] ssh 1101 mount_info::conv_to_posix_path:  mount[1] .. checking /bin -> C:\Program Files\Git\usr\bin 
+   93   32926 [main] ssh 1101 mount_info::conv_to_posix_path:  mount[2] .. checking /tmp -> C:\Users\PC\AppData\Local\Temp 
+   90   33016 [main] ssh 1101 mount_info::conv_to_posix_path: /c/Users/PC/AppData/Roaming/npm = conv_to_posix_path (C:\Users\PC\AppData\Roaming\npm)
+   91   33107 [main] ssh 1101 mount_info::conv_to_posix_path: conv_to_posix_path (C:\Users\PC\AppData\Local\Programs\mongosh, 0x10000100, no-add-slash)
+   90   33197 [main] ssh 1101 normalize_win32_path: C:\Users\PC\AppData\Local\Programs\mongosh = normalize_win32_path (C:\Users\PC\AppData\Local\Programs\mongosh)
+   88   33285 [main] ssh 1101 mount_info::conv_to_posix_path:  mount[0] .. checking / -> C:\Program Files\Git 
+  184   33469 [main] ssh 1101 mount_info::conv_to_posix_path:  mount[1] .. checking /bin -> C:\Program Files\Git\usr\bin 
+   90   33559 [main] ssh 1101 mount_info::conv_to_posix_path:  mount[2] .. checking /tmp -> C:\Users\PC\AppData\Local\Temp 
+   91   33650 [main] ssh 1101 mount_info::conv_to_posix_path: /c/Users/PC/AppData/Local/Programs/mongosh = conv_to_posix_path (C:\Users\PC\AppData\Local\Programs\mongosh)
+  256   33906 [main] ssh 1101 win_env::add_cache: posix /mingw64/bin:/usr/bin:/c/Users/PC/bin:/c/WINDOWS/system32:/c/WINDOWS:/c/WINDOWS/System32/Wbem:/c/WINDOWS/System32/WindowsPowerShell/v1.0:/c/WINDOWS/System32/OpenSSH:/cmd:/c/Program Files/nodejs:/c/Program Files/Git LFS:/c/Program Files/Docker/Docker/resources/bin:/c/ProgramData/DockerDesktop/version-bin:/c/Users/PC/AppData/Local/Microsoft/WindowsApps:/c/Users/PC/AppData/Local/Programs/Microsoft VS Code/bin:/c/Program Files/heroku/bin:/c/Users/PC/AppData/Roaming/npm:/c/Users/PC/AppData/Local/Programs/mongosh
+   98   34004 [main] ssh 1101 win_env::add_cache: native ORIGINAL_PATH=C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\PC\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\Git\cmd;C:\Program Files\nodejs;C:\Program Files\Git LFS;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\PC\AppData\Local\Microsoft\WindowsApps;C:\Users\PC\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\heroku\bin;C:\Users\PC\AppData\Roaming\npm;C:\Users\PC\AppData\Local\Programs\mongosh
+   99   34103 [main] ssh 1101 posify_maybe: env var converted to ORIGINAL_PATH=/mingw64/bin:/usr/bin:/c/Users/PC/bin:/c/WINDOWS/system32:/c/WINDOWS:/c/WINDOWS/System32/Wbem:/c/WINDOWS/System32/WindowsPowerShell/v1.0:/c/WINDOWS/System32/OpenSSH:/cmd:/c/Program Files/nodejs:/c/Program Files/Git LFS:/c/Program Files/Docker/Docker/resources/bin:/c/ProgramData/DockerDesktop/version-bin:/c/Users/PC/AppData/Local/Microsoft/WindowsApps:/c/Users/PC/AppData/Local/Programs/Microsoft VS Code/bin:/c/Program Files/heroku/bin:/c/Users/PC/AppData/Roaming/npm:/c/Users/PC/AppData/Local/Programs/mongosh
+  246   34349 [main] ssh 1101 win32env_to_cygenv: 0x8000392F0: ORIGINAL_PATH=/mingw64/bin:/usr/bin:/c/Users/PC/bin:/c/WINDOWS/system32:/c/WINDOWS:/c/WINDOWS/System32/Wbem:/c/WINDOWS/System32/WindowsPowerShell/v1.0:/c/WINDOWS/System32/OpenSSH:/cmd:/c/Program Files/nodejs:/c/Program Files/Git LFS:/c/Program Files/Docker/Docker/resources/bin:/c/ProgramData/DockerDesktop/version-bin:/c/Users/PC/AppData/Local/Microsoft/WindowsApps:/c/Users/PC/AppData/Local/Programs/Microsoft VS Code/bin:/c/Program Files/heroku/bin:/c/Users/PC/AppData/Roaming/npm:/c/Users/PC/AppData/Local/Programs/mongosh
+  174   34523 [main] ssh 1101 win32env_to_cygenv: 0x800028C10: ORIGINAL_TEMP=/tmp
+  165   34688 [main] ssh 1101 win32env_to_cygenv: 0x800028C30: ORIGINAL_TMP=/tmp
+  167   34855 [main] ssh 1101 win32env_to_cygenv: 0x800028C50: ORIGINAL_XDG_CURRENT_DESKTOP=undefined
+  172   35027 [main] ssh 1101 win32env_to_cygenv: 0x800028C80: OS=Windows_NT
+  166   35193 [main] ssh 1101 win32env_to_cygenv: 0x800028CA0: OneDrive=C:\Users\PC\OneDrive
+  208   35401 [main] ssh 1101 getwinenv: can't set native for PATH= since no environ yet
+   86   35487 [main] ssh 1101 mount_info::conv_to_posix_path: conv_to_posix_path (C:\Users\PC\bin, 0x10000100, no-add-slash)
+  130   35617 [main] ssh 1101 normalize_win32_path: C:\Users\PC\bin = normalize_win32_path (C:\Users\PC\bin)
+   89   35706 [main] ssh 1101 mount_info::conv_to_posix_path:  mount[0] .. checking / -> C:\Program Files\Git 
+   90   35796 [main] ssh 1101 mount_info::conv_to_posix_path:  mount[1] .. checking /bin -> C:\Program Files\Git\usr\bin 
+  294   36090 [main] ssh 1101 mount_info::conv_to_posix_path:  mount[2] .. checking /tmp -> C:\Users\PC\AppData\Local\Temp 
+  171   36261 [main] ssh 1101 mount_info::conv_to_posix_path: /c/Users/PC/bin = conv_to_posix_path (C:\Users\PC\bin)
+   97   36358 [main] ssh 1101 mount_info::conv_to_posix_path: conv_to_posix_path (C:\Program Files\Git\mingw64\bin, 0x10000100, no-add-slash)
+  115   36473 [main] ssh 1101 normalize_win32_path: C:\Program Files\Git\mingw64\bin = normalize_win32_path (C:\Program Files\Git\mingw64\bin)
+  116   36589 [main] ssh 1101 mount_info::conv_to_posix_path:  mount[0] .. checking / -> C:\Program Files\Git 
+  112   36701 [main] ssh 1101 mount_info::conv_to_posix_path: /mingw64/bin = conv_to_posix_path (C:\Program Files\Git\mingw64\bin)
+  112   36813 [main] ssh 1101 mount_info::conv_to_posix_path: conv_to_posix_path (C:\Program Files\Git\usr\local\bin, 0x10000100, no-add-slash)
+  118   36931 [main] ssh 1101 normalize_win32_path: C:\Program Files\Git\usr\local\bin = normalize_win32_path (C:\Program Files\Git\usr\local\bin)
+  111   37042 [main] ssh 1101 mount_info::conv_to_posix_path:  mount[0] .. checking / -> C:\Program Files\Git 
+  110   37152 [main] ssh 1101 mount_info::conv_to_posix_path: /usr/local/bin = conv_to_posix_path (C:\Program Files\Git\usr\local\bin)
+  113   37265 [main] ssh 1101 mount_info::conv_to_posix_path: conv_to_posix_path (C:\Program Files\Git\usr\bin, 0x10000100, no-add-slash)
+  107   37372 [main] ssh 1101 normalize_win32_path: C:\Program Files\Git\usr\bin = normalize_win32_path (C:\Program Files\Git\usr\bin)
+  104   37476 [main] ssh 1101 mount_info::conv_to_posix_path:  mount[0] .. checking / -> C:\Program Files\Git 
+  100   37576 [main] ssh 1101 mount_info::conv_to_posix_path: /usr/bin = conv_to_posix_path (C:\Program Files\Git\usr\bin)
+  101   37677 [main] ssh 1101 mount_info::conv_to_posix_path: conv_to_posix_path (C:\Program Files\Git\usr\bin, 0x10000100, no-add-slash)
+  101   37778 [main] ssh 1101 normalize_win32_path: C:\Program Files\Git\usr\bin = normalize_win32_path (C:\Program Files\Git\usr\bin)
+  102   37880 [main] ssh 1101 mount_info::conv_to_posix_path:  mount[0] .. checking / -> C:\Program Files\Git 
+  108   37988 [main] ssh 1101 mount_info::conv_to_posix_path: /usr/bin = conv_to_posix_path (C:\Program Files\Git\usr\bin)
+  109   38097 [main] ssh 1101 mount_info::conv_to_posix_path: conv_to_posix_path (C:\Program Files\Git\mingw64\bin, 0x10000100, no-add-slash)
+  108   38205 [main] ssh 1101 normalize_win32_path: C:\Program Files\Git\mingw64\bin = normalize_win32_path (C:\Program Files\Git\mingw64\bin)
+  107   38312 [main] ssh 1101 mount_info::conv_to_posix_path:  mount[0] .. checking / -> C:\Program Files\Git 
+  109   38421 [main] ssh 1101 mount_info::conv_to_posix_path: /mingw64/bin = conv_to_posix_path (C:\Program Files\Git\mingw64\bin)
+  109   38530 [main] ssh 1101 mount_info::conv_to_posix_path: conv_to_posix_path (C:\Program Files\Git\usr\bin, 0x10000100, no-add-slash)
+  108   38638 [main] ssh 1101 normalize_win32_path: C:\Program Files\Git\usr\bin = normalize_win32_path (C:\Program Files\Git\usr\bin)
+  107   38745 [main] ssh 1101 mount_info::conv_to_posix_path:  mount[0] .. checking / -> C:\Program Files\Git 
+  109   38854 [main] ssh 1101 mount_info::conv_to_posix_path: /usr/bin = conv_to_posix_path (C:\Program Files\Git\usr\bin)
+  115   38969 [main] ssh 1101 mount_info::conv_to_posix_path: conv_to_posix_path (C:\Users\PC\bin, 0x10000100, no-add-slash)
+  109   39078 [main] ssh 1101 normalize_win32_path: C:\Users\PC\bin = normalize_win32_path (C:\Users\PC\bin)
+  107   39185 [main] ssh 1101 mount_info::conv_to_posix_path:  mount[0] .. checking / -> C:\Program Files\Git 
+  107   39292 [main] ssh 1101 mount_info::conv_to_posix_path:  mount[1] .. checking /bin -> C:\Program Files\Git\usr\bin 
+  108   39400 [main] ssh 1101 mount_info::conv_to_posix_path:  mount[2] .. checking /tmp -> C:\Users\PC\AppData\Local\Temp 
+  163   39563 [main] ssh 1101 mount_info::conv_to_posix_path: /c/Users/PC/bin = conv_to_posix_path (C:\Users\PC\bin)
+  159   39722 [main] ssh 1101 mount_info::conv_to_posix_path: conv_to_posix_path (C:\WINDOWS\system32, 0x10000100, no-add-slash)
+  134   39856 [main] ssh 1101 normalize_win32_path: C:\WINDOWS\system32 = normalize_win32_path (C:\WINDOWS\system32)
+  265   40121 [main] ssh 1101 mount_info::conv_to_posix_path:  mount[0] .. checking / -> C:\Program Files\Git 
+  157   40278 [main] ssh 1101 mount_info::conv_to_posix_path:  mount[1] .. checking /bin -> C:\Program Files\Git\usr\bin 
+  156   40434 [main] ssh 1101 mount_info::conv_to_posix_path:  mount[2] .. checking /tmp -> C:\Users\PC\AppData\Local\Temp 
+  158   40592 [main] ssh 1101 mount_info::conv_to_posix_path: /c/WINDOWS/system32 = conv_to_posix_path (C:\WINDOWS\system32)
+  154   40746 [main] ssh 1101 mount_info::conv_to_posix_path: conv_to_posix_path (C:\WINDOWS, 0x10000100, no-add-slash)
+  137   40883 [main] ssh 1101 normalize_win32_path: C:\WINDOWS = normalize_win32_path (C:\WINDOWS)
+  155   41038 [main] ssh 1101 mount_info::conv_to_posix_path:  mount[0] .. checking / -> C:\Program Files\Git 
+  157   41195 [main] ssh 1101 mount_info::conv_to_posix_path:  mount[1] .. checking /bin -> C:\Program Files\Git\usr\bin 
+  157   41352 [main] ssh 1101 mount_info::conv_to_posix_path:  mount[2] .. checking /tmp -> C:\Users\PC\AppData\Local\Temp 
+  156   41508 [main] ssh 1101 mount_info::conv_to_posix_path: /c/WINDOWS = conv_to_posix_path (C:\WINDOWS)
+  121   41629 [main] ssh 1101 mount_info::conv_to_posix_path: conv_to_posix_path (C:\WINDOWS\System32\Wbem, 0x10000100, no-add-slash)
+  176   41805 [main] ssh 1101 normalize_win32_path: C:\WINDOWS\System32\Wbem = normalize_win32_path (C:\WINDOWS\System32\Wbem)
+  124   41929 [main] ssh 1101 mount_info::conv_to_posix_path:  mount[0] .. checking / -> C:\Program Files\Git 
+   96   42025 [main] ssh 1101 mount_info::conv_to_posix_path:  mount[1] .. checking /bin -> C:\Program Files\Git\usr\bin 
+  160   42185 [main] ssh 1101 mount_info::conv_to_posix_path:  mount[2] .. checking /tmp -> C:\Users\PC\AppData\Local\Temp 
+   99   42284 [main] ssh 1101 mount_info::conv_to_posix_path: /c/WINDOWS/System32/Wbem = conv_to_posix_path (C:\WINDOWS\System32\Wbem)
+   97   42381 [main] ssh 1101 mount_info::conv_to_posix_path: conv_to_posix_path (C:\WINDOWS\System32\WindowsPowerShell\v1.0, 0x10000100, no-add-slash)
+   96   42477 [main] ssh 1101 normalize_win32_path: C:\WINDOWS\System32\WindowsPowerShell\v1.0 = normalize_win32_path (C:\WINDOWS\System32\WindowsPowerShell\v1.0)
+   95   42572 [main] ssh 1101 mount_info::conv_to_posix_path:  mount[0] .. checking / -> C:\Program Files\Git 
+   97   42669 [main] ssh 1101 mount_info::conv_to_posix_path:  mount[1] .. checking /bin -> C:\Program Files\Git\usr\bin 
+   98   42767 [main] ssh 1101 mount_info::conv_to_posix_path:  mount[2] .. checking /tmp -> C:\Users\PC\AppData\Local\Temp 
+  105   42872 [main] ssh 1101 mount_info::conv_to_posix_path: /c/WINDOWS/System32/WindowsPowerShell/v1.0 = conv_to_posix_path (C:\WINDOWS\System32\WindowsPowerShell\v1.0)
+   95   42967 [main] ssh 1101 mount_info::conv_to_posix_path: conv_to_posix_path (C:\WINDOWS\System32\OpenSSH, 0x10000100, no-add-slash)
+   94   43061 [main] ssh 1101 normalize_win32_path: C:\WINDOWS\System32\OpenSSH = normalize_win32_path (C:\WINDOWS\System32\OpenSSH)
+   97   43158 [main] ssh 1101 mount_info::conv_to_posix_path:  mount[0] .. checking / -> C:\Program Files\Git 
+   94   43252 [main] ssh 1101 mount_info::conv_to_posix_path:  mount[1] .. checking /bin -> C:\Program Files\Git\usr\bin 
+   96   43348 [main] ssh 1101 mount_info::conv_to_posix_path:  mount[2] .. checking /tmp -> C:\Users\PC\AppData\Local\Temp 
+   99   43447 [main] ssh 1101 mount_info::conv_to_posix_path: /c/WINDOWS/System32/OpenSSH = conv_to_posix_path (C:\WINDOWS\System32\OpenSSH)
+   97   43544 [main] ssh 1101 mount_info::conv_to_posix_path: conv_to_posix_path (C:\Program Files\Git\cmd, 0x10000100, no-add-slash)
+   97   43641 [main] ssh 1101 normalize_win32_path: C:\Program Files\Git\cmd = normalize_win32_path (C:\Program Files\Git\cmd)
+   95   43736 [main] ssh 1101 mount_info::conv_to_posix_path:  mount[0] .. checking / -> C:\Program Files\Git 
+   99   43835 [main] ssh 1101 mount_info::conv_to_posix_path: /cmd = conv_to_posix_path (C:\Program Files\Git\cmd)
+  177   44012 [main] ssh 1101 mount_info::conv_to_posix_path: conv_to_posix_path (C:\Program Files\nodejs, 0x10000100, no-add-slash)
+   99   44111 [main] ssh 1101 normalize_win32_path: C:\Program Files\nodejs = normalize_win32_path (C:\Program Files\nodejs)
+   95   44206 [main] ssh 1101 mount_info::conv_to_posix_path:  mount[0] .. checking / -> C:\Program Files\Git 
+   96   44302 [main] ssh 1101 mount_info::conv_to_posix_path:  mount[1] .. checking /bin -> C:\Program Files\Git\usr\bin 
+  100   44402 [main] ssh 1101 mount_info::conv_to_posix_path:  mount[2] .. checking /tmp -> C:\Users\PC\AppData\Local\Temp 
+   93   44495 [main] ssh 1101 mount_info::conv_to_posix_path: /c/Program Files/nodejs = conv_to_posix_path (C:\Program Files\nodejs)
+   98   44593 [main] ssh 1101 mount_info::conv_to_posix_path: conv_to_posix_path (C:\Program Files\Git LFS, 0x10000100, no-add-slash)
+   96   44689 [main] ssh 1101 normalize_win32_path: C:\Program Files\Git LFS = normalize_win32_path (C:\Program Files\Git LFS)
+   96   44785 [main] ssh 1101 mount_info::conv_to_posix_path:  mount[0] .. checking / -> C:\Program Files\Git 
+  103   44888 [main] ssh 1101 mount_info::conv_to_posix_path:  mount[1] .. checking /bin -> C:\Program Files\Git\usr\bin 
+   98   44986 [main] ssh 1101 mount_info::conv_to_posix_path:  mount[2] .. checking /tmp -> C:\Users\PC\AppData\Local\Temp 
+  160   45146 [main] ssh 1101 mount_info::conv_to_posix_path: /c/Program Files/Git LFS = conv_to_posix_path (C:\Program Files\Git LFS)
+  103   45249 [main] ssh 1101 mount_info::conv_to_posix_path: conv_to_posix_path (C:\Program Files\Docker\Docker\resources\bin, 0x10000100, no-add-slash)
+   96   45345 [main] ssh 1101 normalize_win32_path: C:\Program Files\Docker\Docker\resources\bin = normalize_win32_path (C:\Program Files\Docker\Docker\resources\bin)
+   94   45439 [main] ssh 1101 mount_info::conv_to_posix_path:  mount[0] .. checking / -> C:\Program Files\Git 
+   96   45535 [main] ssh 1101 mount_info::conv_to_posix_path:  mount[1] .. checking /bin -> C:\Program Files\Git\usr\bin 
+   98   45633 [main] ssh 1101 mount_info::conv_to_posix_path:  mount[2] .. checking /tmp -> C:\Users\PC\AppData\Local\Temp 
+  100   45733 [main] ssh 1101 mount_info::conv_to_posix_path: /c/Program Files/Docker/Docker/resources/bin = conv_to_posix_path (C:\Program Files\Docker\Docker\resources\bin)
+   95   45828 [main] ssh 1101 mount_info::conv_to_posix_path: conv_to_posix_path (C:\ProgramData\DockerDesktop\version-bin, 0x10000100, no-add-slash)
+  109   45937 [main] ssh 1101 normalize_win32_path: C:\ProgramData\DockerDesktop\version-bin = normalize_win32_path (C:\ProgramData\DockerDesktop\version-bin)
+   95   46032 [main] ssh 1101 mount_info::conv_to_posix_path:  mount[0] .. checking / -> C:\Program Files\Git 
+   97   46129 [main] ssh 1101 mount_info::conv_to_posix_path:  mount[1] .. checking /bin -> C:\Program Files\Git\usr\bin 
+   96   46225 [main] ssh 1101 mount_info::conv_to_posix_path:  mount[2] .. checking /tmp -> C:\Users\PC\AppData\Local\Temp 
+   98   46323 [main] ssh 1101 mount_info::conv_to_posix_path: /c/ProgramData/DockerDesktop/version-bin = conv_to_posix_path (C:\ProgramData\DockerDesktop\version-bin)
+  165   46488 [main] ssh 1101 mount_info::conv_to_posix_path: conv_to_posix_path (C:\Users\PC\AppData\Local\Microsoft\WindowsApps, 0x10000100, no-add-slash)
+   97   46585 [main] ssh 1101 normalize_win32_path: C:\Users\PC\AppData\Local\Microsoft\WindowsApps = normalize_win32_path (C:\Users\PC\AppData\Local\Microsoft\WindowsApps)
+   94   46679 [main] ssh 1101 mount_info::conv_to_posix_path:  mount[0] .. checking / -> C:\Program Files\Git 
+   96   46775 [main] ssh 1101 mount_info::conv_to_posix_path:  mount[1] .. checking /bin -> C:\Program Files\Git\usr\bin 
+  108   46883 [main] ssh 1101 mount_info::conv_to_posix_path:  mount[2] .. checking /tmp -> C:\Users\PC\AppData\Local\Temp 
+  100   46983 [main] ssh 1101 mount_info::conv_to_posix_path: /c/Users/PC/AppData/Local/Microsoft/WindowsApps = conv_to_posix_path (C:\Users\PC\AppData\Local\Microsoft\WindowsApps)
+   98   47081 [main] ssh 1101 mount_info::conv_to_posix_path: conv_to_posix_path (C:\Users\PC\AppData\Local\Programs\Microsoft VS Code\bin, 0x10000100, no-add-slash)
+   95   47176 [main] ssh 1101 normalize_win32_path: C:\Users\PC\AppData\Local\Programs\Microsoft VS Code\bin = normalize_win32_path (C:\Users\PC\AppData\Local\Programs\Microsoft VS Code\bin)
+   97   47273 [main] ssh 1101 mount_info::conv_to_posix_path:  mount[0] .. checking / -> C:\Program Files\Git 
+   96   47369 [main] ssh 1101 mount_info::conv_to_posix_path:  mount[1] .. checking /bin -> C:\Program Files\Git\usr\bin 
+   96   47465 [main] ssh 1101 mount_info::conv_to_posix_path:  mount[2] .. checking /tmp -> C:\Users\PC\AppData\Local\Temp 
+   98   47563 [main] ssh 1101 mount_info::conv_to_posix_path: /c/Users/PC/AppData/Local/Programs/Microsoft VS Code/bin = conv_to_posix_path (C:\Users\PC\AppData\Local\Programs\Microsoft VS Code\bin)
+   97   47660 [main] ssh 1101 mount_info::conv_to_posix_path: conv_to_posix_path (C:\Program Files\heroku\bin, 0x10000100, no-add-slash)
+   96   47756 [main] ssh 1101 normalize_win32_path: C:\Program Files\heroku\bin = normalize_win32_path (C:\Program Files\heroku\bin)
+   97   47853 [main] ssh 1101 mount_info::conv_to_posix_path:  mount[0] .. checking / -> C:\Program Files\Git 
+   94   47947 [main] ssh 1101 mount_info::conv_to_posix_path:  mount[1] .. checking /bin -> C:\Program Files\Git\usr\bin 
+   99   48046 [main] ssh 1101 mount_info::conv_to_posix_path:  mount[2] .. checking /tmp -> C:\Users\PC\AppData\Local\Temp 
+   99   48145 [main] ssh 1101 mount_info::conv_to_posix_path: /c/Program Files/heroku/bin = conv_to_posix_path (C:\Program Files\heroku\bin)
+  125   48270 [main] ssh 1101 mount_info::conv_to_posix_path: conv_to_posix_path (C:\Users\PC\AppData\Roaming\npm, 0x10000100, no-add-slash)
+  134   48404 [main] ssh 1101 normalize_win32_path: C:\Users\PC\AppData\Roaming\npm = normalize_win32_path (C:\Users\PC\AppData\Roaming\npm)
+  116   48520 [main] ssh 1101 mount_info::conv_to_posix_path:  mount[0] .. checking / -> C:\Program Files\Git 
+  103   48623 [main] ssh 1101 mount_info::conv_to_posix_path:  mount[1] .. checking /bin -> C:\Program Files\Git\usr\bin 
+  116   48739 [main] ssh 1101 mount_info::conv_to_posix_path:  mount[2] .. checking /tmp -> C:\Users\PC\AppData\Local\Temp 
+  122   48861 [main] ssh 1101 mount_info::conv_to_posix_path: /c/Users/PC/AppData/Roaming/npm = conv_to_posix_path (C:\Users\PC\AppData\Roaming\npm)
+  130   48991 [main] ssh 1101 mount_info::conv_to_posix_path: conv_to_posix_path (C:\Users\PC\AppData\Local\Programs\mongosh, 0x10000100, no-add-slash)
+  121   49112 [main] ssh 1101 normalize_win32_path: C:\Users\PC\AppData\Local\Programs\mongosh = normalize_win32_path (C:\Users\PC\AppData\Local\Programs\mongosh)
+  121   49233 [main] ssh 1101 mount_info::conv_to_posix_path:  mount[0] .. checking / -> C:\Program Files\Git 
+  122   49355 [main] ssh 1101 mount_info::conv_to_posix_path:  mount[1] .. checking /bin -> C:\Program Files\Git\usr\bin 
+  123   49478 [main] ssh 1101 mount_info::conv_to_posix_path:  mount[2] .. checking /tmp -> C:\Users\PC\AppData\Local\Temp 
+  110   49588 [main] ssh 1101 mount_info::conv_to_posix_path: /c/Users/PC/AppData/Local/Programs/mongosh = conv_to_posix_path (C:\Users\PC\AppData\Local\Programs\mongosh)
+  100   49688 [main] ssh 1101 mount_info::conv_to_posix_path: conv_to_posix_path (C:\Program Files\Git\usr\bin\vendor_perl, 0x10000100, no-add-slash)
+  115   49803 [main] ssh 1101 normalize_win32_path: C:\Program Files\Git\usr\bin\vendor_perl = normalize_win32_path (C:\Program Files\Git\usr\bin\vendor_perl)
+  108   49911 [main] ssh 1101 mount_info::conv_to_posix_path:  mount[0] .. checking / -> C:\Program Files\Git 
+  102   50013 [main] ssh 1101 mount_info::conv_to_posix_path: /usr/bin/vendor_perl = conv_to_posix_path (C:\Program Files\Git\usr\bin\vendor_perl)
+  102   50115 [main] ssh 1101 mount_info::conv_to_posix_path: conv_to_posix_path (C:\Program Files\Git\usr\bin\core_perl, 0x10000100, no-add-slash)
+  101   50216 [main] ssh 1101 normalize_win32_path: C:\Program Files\Git\usr\bin\core_perl = normalize_win32_path (C:\Program Files\Git\usr\bin\core_perl)
+  102   50318 [main] ssh 1101 mount_info::conv_to_posix_path:  mount[0] .. checking / -> C:\Program Files\Git 
+  109   50427 [main] ssh 1101 mount_info::conv_to_posix_path: /usr/bin/core_perl = conv_to_posix_path (C:\Program Files\Git\usr\bin\core_perl)
+  293   50720 [main] ssh 1101 win_env::add_cache: posix /c/Users/PC/bin:/mingw64/bin:/usr/local/bin:/usr/bin:/usr/bin:/mingw64/bin:/usr/bin:/c/Users/PC/bin:/c/WINDOWS/system32:/c/WINDOWS:/c/WINDOWS/System32/Wbem:/c/WINDOWS/System32/WindowsPowerShell/v1.0:/c/WINDOWS/System32/OpenSSH:/cmd:/c/Program Files/nodejs:/c/Program Files/Git LFS:/c/Program Files/Docker/Docker/resources/bin:/c/ProgramData/DockerDesktop/version-bin:/c/Users/PC/AppData/Local/Microsoft/WindowsApps:/c/Users/PC/AppData/Local/Programs/Microsoft VS Code/bin:/c/Program Files/heroku/bin:/c/Users/PC/AppData/Roaming/npm:/c/Users/PC/AppData/Local/Programs/mongosh:/usr/bin/vendor_perl:/usr/bin/core_perl
+  107   50827 [main] ssh 1101 win_env::add_cache: native PATH=C:\Users\PC\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\PC\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\Git\cmd;C:\Program Files\nodejs;C:\Program Files\Git LFS;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\PC\AppData\Local\Microsoft\WindowsApps;C:\Users\PC\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\heroku\bin;C:\Users\PC\AppData\Roaming\npm;C:\Users\PC\AppData\Local\Programs\mongosh;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+  138   50965 [main] ssh 1101 posify_maybe: env var converted to PATH=/c/Users/PC/bin:/mingw64/bin:/usr/local/bin:/usr/bin:/usr/bin:/mingw64/bin:/usr/bin:/c/Users/PC/bin:/c/WINDOWS/system32:/c/WINDOWS:/c/WINDOWS/System32/Wbem:/c/WINDOWS/System32/WindowsPowerShell/v1.0:/c/WINDOWS/System32/OpenSSH:/cmd:/c/Program Files/nodejs:/c/Program Files/Git LFS:/c/Program Files/Docker/Docker/resources/bin:/c/ProgramData/DockerDesktop/version-bin:/c/Users/PC/AppData/Local/Microsoft/WindowsApps:/c/Users/PC/AppData/Local/Programs/Microsoft VS Code/bin:/c/Program Files/heroku/bin:/c/Users/PC/AppData/Roaming/npm:/c/Users/PC/AppData/Local/Programs/mongosh:/usr/bin/vendor_perl:/usr/bin/core_perl
+  289   51254 [main] ssh 1101 win32env_to_cygenv: 0x800039DE0: PATH=/c/Users/PC/bin:/mingw64/bin:/usr/local/bin:/usr/bin:/usr/bin:/mingw64/bin:/usr/bin:/c/Users/PC/bin:/c/WINDOWS/system32:/c/WINDOWS:/c/WINDOWS/System32/Wbem:/c/WINDOWS/System32/WindowsPowerShell/v1.0:/c/WINDOWS/System32/OpenSSH:/cmd:/c/Program Files/nodejs:/c/Program Files/Git LFS:/c/Program Files/Docker/Docker/resources/bin:/c/ProgramData/DockerDesktop/version-bin:/c/Users/PC/AppData/Local/Microsoft/WindowsApps:/c/Users/PC/AppData/Local/Programs/Microsoft VS Code/bin:/c/Program Files/heroku/bin:/c/Users/PC/AppData/Roaming/npm:/c/Users/PC/AppData/Local/Programs/mongosh:/usr/bin/vendor_perl:/usr/bin/core_perl
+  200   51454 [main] ssh 1101 win32env_to_cygenv: 0x800028CD0: PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+  191   51645 [main] ssh 1101 win32env_to_cygenv: 0x800028D20: PKG_CONFIG_PATH=/mingw64/lib/pkgconfig:/mingw64/share/pkgconfig
+  194   51839 [main] ssh 1101 win32env_to_cygenv: 0x800028D70: PLINK_PROTOCOL=ssh
+  218   52057 [main] ssh 1101 win32env_to_cygenv: 0x800028D90: PROCESSOR_ARCHITECTURE=AMD64
+  224   52281 [main] ssh 1101 win32env_to_cygenv: 0x800028DC0: PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 69 Stepping 1, GenuineIntel
+  213   52494 [main] ssh 1101 win32env_to_cygenv: 0x800028E10: PROCESSOR_LEVEL=6
+  215   52709 [main] ssh 1101 win32env_to_cygenv: 0x800028E30: PROCESSOR_REVISION=4501
+  201   52910 [main] ssh 1101 win32env_to_cygenv: 0x800039510: PROGRAMFILES=C:\Program Files
+  201   53111 [main] ssh 1101 win32env_to_cygenv: 0x800039540: PS1=\[\033]0;$TITLEPREFIX:$PWD\007\]\n\[\033[32m\]\u@\h \[\033[35m\]$MSYSTEM \[\033[33m\]\w\[\033[36m\]`__git_ps1`\[\033[0m\]\n$ 
+  197   53308 [main] ssh 1101 win32env_to_cygenv: 0x8000395D0: PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+  194   53502 [main] ssh 1101 win32env_to_cygenv: 0x800028E50: PUBLIC=C:\Users\Public
+  199   53701 [main] ssh 1101 win32env_to_cygenv: 0x800039650: PWD=/c/Users/PC/desktop/mern-fullstack
+  190   53891 [main] ssh 1101 win32env_to_cygenv: 0x800039680: ProgramData=C:\ProgramData
+  191   54082 [main] ssh 1101 win32env_to_cygenv: 0x8000396B0: ProgramFiles(x86)=C:\Program Files (x86)
+  190   54272 [main] ssh 1101 win32env_to_cygenv: 0x8000396F0: ProgramW6432=C:\Program Files
+  190   54462 [main] ssh 1101 win32env_to_cygenv: 0x800039720: SESSIONNAME=Console
+  192   54654 [main] ssh 1101 getwinenv: can't set native for SHELL= since no environ yet
+  102   54756 [main] ssh 1101 mount_info::conv_to_posix_path: conv_to_posix_path (C:\Program Files\Git\usr\bin\bash.exe, 0x10000000, no-add-slash)
+  102   54858 [main] ssh 1101 normalize_win32_path: C:\Program Files\Git\usr\bin\bash.exe = normalize_win32_path (C:\Program Files\Git\usr\bin\bash.exe)
+  113   54971 [main] ssh 1101 mount_info::conv_to_posix_path:  mount[0] .. checking / -> C:\Program Files\Git 
+  129   55100 [main] ssh 1101 mount_info::conv_to_posix_path: /usr/bin/bash.exe = conv_to_posix_path (C:\Program Files\Git\usr\bin\bash.exe)
+  310   55410 [main] ssh 1101 win_env::add_cache: posix /usr/bin/bash.exe
+  101   55511 [main] ssh 1101 win_env::add_cache: native SHELL=C:\Program Files\Git\usr\bin\bash.exe
+  101   55612 [main] ssh 1101 posify_maybe: env var converted to SHELL=/usr/bin/bash.exe
+  273   55885 [main] ssh 1101 win32env_to_cygenv: 0x8000397E0: SHELL=/usr/bin/bash.exe
+  191   56076 [main] ssh 1101 win32env_to_cygenv: 0x800039800: SHLVL=1
+  192   56268 [main] ssh 1101 win32env_to_cygenv: 0x800039740: SSH_ASKPASS=/mingw64/bin/git-askpass.exe
+  189   56457 [main] ssh 1101 win32env_to_cygenv: 0x800039820: SYSTEMDRIVE=C:
+  191   56648 [main] ssh 1101 win32env_to_cygenv: 0x80003A060: SYSTEMROOT=C:\WINDOWS
+  202   56850 [main] ssh 1101 win32env_to_cygenv: 0x80003A080: SynaProgDir=Synaptics\SynTP
+  246   57096 [main] ssh 1101 getwinenv: can't set native for TEMP= since no environ yet
+  102   57198 [main] ssh 1101 mount_info::conv_to_posix_path: conv_to_posix_path (C:\Users\PC\AppData\Local\Temp, 0x10000000, no-add-slash)
+  103   57301 [main] ssh 1101 normalize_win32_path: C:\Users\PC\AppData\Local\Temp = normalize_win32_path (C:\Users\PC\AppData\Local\Temp)
+  102   57403 [main] ssh 1101 mount_info::conv_to_posix_path:  mount[0] .. checking / -> C:\Program Files\Git 
+  102   57505 [main] ssh 1101 mount_info::conv_to_posix_path:  mount[1] .. checking /bin -> C:\Program Files\Git\usr\bin 
+  106   57611 [main] ssh 1101 mount_info::conv_to_posix_path:  mount[2] .. checking /tmp -> C:\Users\PC\AppData\Local\Temp 
+  145   57756 [main] ssh 1101 mount_info::conv_to_posix_path: /tmp = conv_to_posix_path (C:\Users\PC\AppData\Local\Temp)
+  335   58091 [main] ssh 1101 win_env::add_cache: posix /tmp
+  120   58211 [main] ssh 1101 win_env::add_cache: native TEMP=C:\Users\PC\AppData\Local\Temp
+  158   58369 [main] ssh 1101 posify_maybe: env var converted to TEMP=/tmp
+  318   58687 [main] ssh 1101 win32env_to_cygenv: 0x80003A130: TEMP=/tmp
+  222   58909 [main] ssh 1101 win32env_to_cygenv: 0x80003A0B0: TERM=xterm-256color
+  222   59131 [main] ssh 1101 win32env_to_cygenv: 0x80003A150: TERM_PROGRAM=vscode
+  197   59328 [main] ssh 1101 win32env_to_cygenv: 0x80003A170: TERM_PROGRAM_VERSION=1.66.2
+  207   59535 [main] ssh 1101 getwinenv: can't set native for TMP= since no environ yet
+  119   59654 [main] ssh 1101 mount_info::conv_to_posix_path: conv_to_posix_path (C:\Users\PC\AppData\Local\Temp, 0x10000000, no-add-slash)
+  115   59769 [main] ssh 1101 normalize_win32_path: C:\Users\PC\AppData\Local\Temp = normalize_win32_path (C:\Users\PC\AppData\Local\Temp)
+  120   59889 [main] ssh 1101 mount_info::conv_to_posix_path:  mount[0] .. checking / -> C:\Program Files\Git 
+  109   59998 [main] ssh 1101 mount_info::conv_to_posix_path:  mount[1] .. checking /bin -> C:\Program Files\Git\usr\bin 
+  109   60107 [main] ssh 1101 mount_info::conv_to_posix_path:  mount[2] .. checking /tmp -> C:\Users\PC\AppData\Local\Temp 
+  106   60213 [main] ssh 1101 mount_info::conv_to_posix_path: /tmp = conv_to_posix_path (C:\Users\PC\AppData\Local\Temp)
+  282   60495 [main] ssh 1101 win_env::add_cache: posix /tmp
+  104   60599 [main] ssh 1101 win_env::add_cache: native TMP=C:\Users\PC\AppData\Local\Temp
+  105   60704 [main] ssh 1101 posify_maybe: env var converted to TMP=/tmp
+  264   60968 [main] ssh 1101 win32env_to_cygenv: 0x80003A220: TMP=/tmp
+  182   61150 [main] ssh 1101 getwinenv: can't set native for TMPDIR= since no environ yet
+   94   61244 [main] ssh 1101 mount_info::conv_to_posix_path: conv_to_posix_path (C:\Users\PC\AppData\Local\Temp, 0x10000000, no-add-slash)
+   97   61341 [main] ssh 1101 normalize_win32_path: C:\Users\PC\AppData\Local\Temp = normalize_win32_path (C:\Users\PC\AppData\Local\Temp)
+   95   61436 [main] ssh 1101 mount_info::conv_to_posix_path:  mount[0] .. checking / -> C:\Program Files\Git 
+   98   61534 [main] ssh 1101 mount_info::conv_to_posix_path:  mount[1] .. checking /bin -> C:\Program Files\Git\usr\bin 
+  104   61638 [main] ssh 1101 mount_info::conv_to_posix_path:  mount[2] .. checking /tmp -> C:\Users\PC\AppData\Local\Temp 
+  104   61742 [main] ssh 1101 mount_info::conv_to_posix_path: /tmp = conv_to_posix_path (C:\Users\PC\AppData\Local\Temp)
+  328   62070 [main] ssh 1101 win_env::add_cache: posix /tmp
+  121   62191 [main] ssh 1101 win_env::add_cache: native TMPDIR=C:\Users\PC\AppData\Local\Temp
+  121   62312 [main] ssh 1101 posify_maybe: env var converted to TMPDIR=/tmp
+  346   62658 [main] ssh 1101 win32env_to_cygenv: 0x80003A290: TMPDIR=/tmp
+  219   62877 [main] ssh 1101 win32env_to_cygenv: 0x80003A1A0: USERDOMAIN=WANESCRIPT
+  233   63110 [main] ssh 1101 win32env_to_cygenv: 0x80003A2B0: USERDOMAIN_ROAMINGPROFILE=WANESCRIPT
+  236   63346 [main] ssh 1101 win32env_to_cygenv: 0x80003A2E0: USERNAME=PC
+  205   63551 [main] ssh 1101 win32env_to_cygenv: 0x80003A300: USERPROFILE=C:\Users\PC
+  188   63739 [main] ssh 1101 win32env_to_cygenv: 0x80003A320: VSCODE_GIT_ASKPASS_EXTRA_ARGS=--ms-enable-electron-run-as-node
+  185   63924 [main] ssh 1101 win32env_to_cygenv: 0x80003A370: VSCODE_GIT_ASKPASS_MAIN=c:\Users\PC\AppData\Local\Programs\Microsoft VS Code\resources\app\extensions\git\dist\askpass-main.js
+  173   64097 [main] ssh 1101 win32env_to_cygenv: 0x80003A400: VSCODE_GIT_ASKPASS_NODE=C:\Users\PC\AppData\Local\Programs\Microsoft VS Code\Code.exe
+  171   64268 [main] ssh 1101 win32env_to_cygenv: 0x80003A460: VSCODE_GIT_IPC_HANDLE=\\.\pipe\vscode-git-f945bea257-sock
+  170   64438 [main] ssh 1101 win32env_to_cygenv: 0x80003A4B0: WINDIR=C:\WINDOWS
+  168   64606 [main] ssh 1101 win32env_to_cygenv: 0x80003A4D0: _=/usr/bin/strace
+  103   64709 [main] ssh 1101 pinfo_init: Set nice to 0
+   87   64796 [main] ssh 1101 pinfo_init: pid 1101, pgid 1101, process_state 0x41
+   95   64891 [main] ssh 1101 App version:  3001.7, api: 0.340
+   91   64982 [main] ssh 1101 DLL version:  3001.7, api: 0.340
+   90   65072 [main] ssh 1101 DLL build:    2021-03-26 22:17
+  111   65183 [main] ssh 1101 dtable::extend: size 32, fds 0x18034F610
+  217   65400 [main] ssh 1101 __get_lcid_from_locale: LCID=0x0409
+  705   66105 [main] ssh 1101 transport_layer_pipes::connect: Try to connect to named pipe: \\.\pipe\msys-1888ae32e00d56aa-lpc
+  122   66227 [main] ssh 1101 transport_layer_pipes::connect: Error opening the pipe (2)
+  167   66394 [main] ssh 1101 client_request::make_request: cygserver un-available
+--- Process 5936 (pid: 1101) loaded C:\Windows\System32\netapi32.dll at 00007ff9409f0000
+--- Process 5936 (pid: 1101) loaded C:\Windows\System32\samcli.dll at 00007ff943560000
+--- Process 5936 (pid: 1101) loaded C:\Windows\System32\ucrtbase.dll at 00007ff94a640000
+--- Process 5936 (pid: 1101) loaded C:\Windows\System32\samlib.dll at 00007ff946280000
+ 7421   73815 [main] ssh 1101 mount_info::conv_to_posix_path: conv_to_posix_path (C:\Users\PC, 0x10000000, no-add-slash)
+  146   73961 [main] ssh 1101 normalize_win32_path: C:\Users\PC = normalize_win32_path (C:\Users\PC)
+  118   74079 [main] ssh 1101 mount_info::conv_to_posix_path:  mount[0] .. checking / -> C:\Program Files\Git 
+  138   74217 [main] ssh 1101 mount_info::conv_to_posix_path:  mount[1] .. checking /bin -> C:\Program Files\Git\usr\bin 
+  135   74352 [main] ssh 1101 mount_info::conv_to_posix_path:  mount[2] .. checking /tmp -> C:\Users\PC\AppData\Local\Temp 
+  122   74474 [main] ssh 1101 mount_info::conv_to_posix_path: /c/Users/PC = conv_to_posix_path (C:\Users\PC)
+--- Process 5936 (pid: 1101) loaded C:\Windows\System32\netutils.dll at 00007ff949ae0000
+ 1252   75726 [main] ssh 1101 pwdgrp::fetch_account_from_windows: line: <PC:*:197609:197609:U-WANESCRIPT\PC,S-1-5-21-3475727991-2128748601-2276411525-1001:/c/Users/PC:/usr/bin/bash>
+  274   76000 [main] ssh 1101 internal_getlogin: group not found in group DB
+  121   76121 [main] ssh 1101 cygheap_user::ontherange: what 2, pw 0x18034F920
+  121   76242 [main] ssh 1101 cygheap_user::ontherange: HOME is already in the environment /c/Users/PC
+  243   76485 [main] ssh 1101 build_argv: cmd = 'ssh juliabox.com', winshell = 1, glob = 1
+  230   76715 [main] ssh 1101 build_argv: argv[0] = 'ssh'
+  130   76845 [main] ssh 1101 build_argv: argv[1] = 'juliabox.com'
+  139   76984 [main] ssh 1101 build_argv: argc 2
+  406   77390 [main] ssh 1101 open_shared: name 1888ae32e00d56aa-cons0x5039E.0, n 0, shared 0x180000000 (wanted 0x180000000), h 0x194, *m 6
+  153   77543 [main] ssh 1101 open_shared: name cygpid.852, n 852, shared 0x170000 (wanted 0x0), h 0x188, *m 6
+  188   77731 [main] ssh 1101 build_fh_pc: created an archetype (0x180350390) for /dev/cons0(3/0)
+  118   77849 [main] ssh 1101 build_fh_pc: fh 0x180350010, dev 00030000
+  485   78334 [main] ssh 1101 fhandler_console::open: opened conin$ 0x188, conout$ 0x18C
+  101   78435 [main] ssh 1101 fhandler_base::open_with_arch: line 471:  /dev/cons0<0x180350390> usecount + 1 = 1
+   97   78532 [main] ssh 1101 fhandler_base::set_flags: flags 0x10002, supplied_bin 0x0
+   91   78623 [main] ssh 1101 fhandler_base::set_flags: O_TEXT/O_BINARY set in flags 0x10000
+   91   78714 [main] ssh 1101 fhandler_base::set_flags: filemode set to binary
+   98   78812 [main] ssh 1101 _pinfo::set_ctty: old no ctty, ctty device number 0xFFFFFFFF, tc.ntty device number 0x30000 flags & O_NOCTTY 0x0
+   95   78907 [main] ssh 1101 _pinfo::set_ctty: cygheap->ctty 0x0, archetype 0x180350390
+   91   78998 [main] ssh 1101 _pinfo::set_ctty: ctty was NULL
+   91   79089 [main] ssh 1101 _pinfo::set_ctty: line 541:  /dev/cons0<0x180350390> usecount + 1 = 2
+   98   79187 [main] ssh 1101 _pinfo::set_ctty: /dev/cons0 ctty, usecount 2
+  113   79300 [main] ssh 1101 _pinfo::set_ctty: attaching ctty /dev/cons0 sid 1101, pid 1101, pgid 1101, tty->pgid 1099, tty->sid 852
+  113   79413 [main] ssh 1101 _pinfo::set_ctty: cygheap->ctty now 0x180350390, archetype 0x180350390
+  173   79586 [main] ssh 1101 fhandler_console::output_tcsetattr: 0 = tcsetattr(,0x180000024) (ENABLE FLAGS 0x3) (lflag 0xD1F oflag 0x9)
+  164   79750 [main] ssh 1101 fhandler_console::input_tcsetattr: this 0x180350010, get_ttyp () 0x180000000, t 0x180000024
+   97   79847 [main] ssh 1101 fhandler_base::set_flags: flags 0x10002, supplied_bin 0x0
+   93   79940 [main] ssh 1101 fhandler_base::set_flags: O_TEXT/O_BINARY set in flags 0x10000
+   91   80031 [main] ssh 1101 fhandler_base::set_flags: filemode set to binary
+   91   80122 [main] ssh 1101 _pinfo::set_ctty: old ctty /dev/cons0, ctty device number 0x30000, tc.ntty device number 0x30000 flags & O_NOCTTY 0x0
+   94   80216 [main] ssh 1101 _pinfo::set_ctty: attaching ctty /dev/cons0 sid 852, pid 1101, pgid 1101, tty->pgid 1101, tty->sid 852
+   93   80309 [main] ssh 1101 _pinfo::set_ctty: cygheap->ctty now 0x180350390, archetype 0x180350390
+  248   80557 [main] ssh 1101 open_shared: name cygpid.852, n 852, shared 0x170000 (wanted 0x0), h 0x1AC, *m 6
+  123   80680 [main] ssh 1101 build_fh_pc: found an archetype for (null)(3/0) io_handle 0x188
+   90   80770 [main] ssh 1101 build_fh_pc: fh 0x180350770, dev 00030000
+  106   80876 [main] ssh 1101 fhandler_base::open_with_arch: line 491:  /dev/cons0<0x180350390> usecount + 1 = 3
+  113   80989 [main] ssh 1101 fhandler_base::set_flags: flags 0x10002, supplied_bin 0x0
+   89   81078 [main] ssh 1101 fhandler_base::set_flags: O_TEXT/O_BINARY set in flags 0x10000
+   90   81168 [main] ssh 1101 fhandler_base::set_flags: filemode set to binary
+   90   81258 [main] ssh 1101 _pinfo::set_ctty: old ctty /dev/cons0, ctty device number 0x30000, tc.ntty device number 0x30000 flags & O_NOCTTY 0x0
+   95   81353 [main] ssh 1101 _pinfo::set_ctty: attaching ctty /dev/cons0 sid 852, pid 1101, pgid 1101, tty->pgid 1101, tty->sid 852
+   93   81446 [main] ssh 1101 _pinfo::set_ctty: cygheap->ctty now 0x180350390, archetype 0x180350390
+  145   81591 [main] ssh 1101 fhandler_console::output_tcsetattr: 0 = tcsetattr(,0x180000024) (ENABLE FLAGS 0x3) (lflag 0xD1F oflag 0x9)
+  143   81734 [main] ssh 1101 fhandler_console::input_tcsetattr: this 0x180350770, get_ttyp () 0x180000000, t 0x180000024
+   93   81827 [main] ssh 1101 fhandler_base::set_flags: flags 0x10002, supplied_bin 0x0
+   96   81923 [main] ssh 1101 fhandler_base::set_flags: O_TEXT/O_BINARY set in flags 0x10000
+   95   82018 [main] ssh 1101 fhandler_base::set_flags: filemode set to binary
+   96   82114 [main] ssh 1101 _pinfo::set_ctty: old ctty /dev/cons0, ctty device number 0x30000, tc.ntty device number 0x30000 flags & O_NOCTTY 0x0
+   94   82208 [main] ssh 1101 _pinfo::set_ctty: attaching ctty /dev/cons0 sid 852, pid 1101, pgid 1101, tty->pgid 1101, tty->sid 852
+   93   82301 [main] ssh 1101 _pinfo::set_ctty: cygheap->ctty now 0x180350390, archetype 0x180350390
+  244   82545 [main] ssh 1101 open_shared: name cygpid.852, n 852, shared 0x170000 (wanted 0x0), h 0x1AC, *m 6
+  118   82663 [main] ssh 1101 build_fh_pc: found an archetype for (null)(3/0) io_handle 0x188
+   88   82751 [main] ssh 1101 build_fh_pc: fh 0x180350AF0, dev 00030000
+   99   82850 [main] ssh 1101 fhandler_base::open_with_arch: line 491:  /dev/cons0<0x180350390> usecount + 1 = 4
+  112   82962 [main] ssh 1101 fhandler_base::set_flags: flags 0x10002, supplied_bin 0x0
+  105   83067 [main] ssh 1101 fhandler_base::set_flags: O_TEXT/O_BINARY set in flags 0x10000
+   90   83157 [main] ssh 1101 fhandler_base::set_flags: filemode set to binary
+   92   83249 [main] ssh 1101 _pinfo::set_ctty: old ctty /dev/cons0, ctty device number 0x30000, tc.ntty device number 0x30000 flags & O_NOCTTY 0x0
+   94   83343 [main] ssh 1101 _pinfo::set_ctty: attaching ctty /dev/cons0 sid 852, pid 1101, pgid 1101, tty->pgid 1101, tty->sid 852
+   92   83435 [main] ssh 1101 _pinfo::set_ctty: cygheap->ctty now 0x180350390, archetype 0x180350390
+  144   83579 [main] ssh 1101 fhandler_console::output_tcsetattr: 0 = tcsetattr(,0x180000024) (ENABLE FLAGS 0x3) (lflag 0xD1F oflag 0x9)
+  142   83721 [main] ssh 1101 fhandler_console::input_tcsetattr: this 0x180350AF0, get_ttyp () 0x180000000, t 0x180000024
+   93   83814 [main] ssh 1101 fhandler_base::set_flags: flags 0x10002, supplied_bin 0x0
+  145   83959 [main] ssh 1101 fhandler_base::set_flags: O_TEXT/O_BINARY set in flags 0x10000
+  112   84071 [main] ssh 1101 fhandler_base::set_flags: filemode set to binary
+   99   84170 [main] ssh 1101 _pinfo::set_ctty: old ctty /dev/cons0, ctty device number 0x30000, tc.ntty device number 0x30000 flags & O_NOCTTY 0x0
+  108   84278 [main] ssh 1101 _pinfo::set_ctty: attaching ctty /dev/cons0 sid 852, pid 1101, pgid 1101, tty->pgid 1101, tty->sid 852
+  102   84380 [main] ssh 1101 _pinfo::set_ctty: cygheap->ctty now 0x180350390, archetype 0x180350390
+89287  173667 [main] ssh 1101 __set_errno: void dll_crt0_1(void*):1002 setting errno 0
+31589  205256 [main] ssh 1101 open: open(/dev/null, 0x10002)
+23327  228583 [main] ssh 1101 normalize_posix_path: src /dev/null
+  335  228918 [main] ssh 1101 normalize_posix_path: /dev/null = normalize_posix_path (/dev/null)
+  294  229212 [main] ssh 1101 mount_info::conv_to_win32_path: conv_to_win32_path (/dev/null)
+  374  229586 [main] ssh 1101 mount_info::conv_to_win32_path: win32_device_name (/dev/null)
+  328  229914 [main] ssh 1101 mount_info::conv_to_win32_path: src_path /dev/null, dst \Device\Null, flags 0x0, rc 0
+  379  230293 [main] ssh 1101 build_fh_pc: fh 0x180351110, dev 00010003
+  331  230624 [main] ssh 1101 fhandler_base::open: (\Device\Null, 0x18002)
+  415  231039 [main] ssh 1101 fhandler_base::set_flags: flags 0x18002, supplied_bin 0x10000
+  300  231339 [main] ssh 1101 fhandler_base::set_flags: O_TEXT/O_BINARY set in flags 0x10000
+  315  231654 [main] ssh 1101 fhandler_base::set_flags: filemode set to binary
+  338  231992 [main] ssh 1101 fhandler_base::open: 0x0 = NtCreateFile (0x1AC, 0xC0100000, \Device\Null, io, NULL, 0x0, 0x7, 0x1, 0x4020, NULL, 0)
+  309  232301 [main] ssh 1101 fhandler_base::open: 1 = fhandler_base::open(\Device\Null, 0x18002)
+  314  232615 [main] ssh 1101 open: 3 = open(/dev/null, 0x18002)
+  345  232960 [main] ssh 1101 close: close(3)
+  367  233327 [main] ssh 1101 fhandler_base::close: closing '/dev/null' handle 0x1AC
+  350  233677 [main] ssh 1101 close: 0 = close(3)
+  358  234035 [main] ssh 1101 getpid: 1101 = getpid()
+  374  234409 [main] ssh 1101 normalize_posix_path: src /proc/1101/fd
+  328  234737 [main] ssh 1101 normalize_posix_path: /proc/1101/fd = normalize_posix_path (/proc/1101/fd)
+  271  235008 [main] ssh 1101 mount_info::conv_to_win32_path: conv_to_win32_path (/proc/1101/fd)
+  334  235342 [main] ssh 1101 mount_info::conv_to_win32_path: isproc (/proc/1101/fd)
+35769  271111 [main] ssh 1101 fhandler_proc::get_proc_fhandler: get_proc_fhandler(/proc/1101/fd)
+  410  271521 [main] ssh 1101 mount_info::conv_to_win32_path: src_path /proc/1101/fd, dst /proc/1101/fd, flags 0x0, rc 0
+  356  271877 [main] ssh 1101 build_fh_pc: fh 0x180351110, dev 000000FE
+  267  272144 [main] ssh 1101 fhandler_process::exists: exists (/proc/1101/fd)
+68785  340929 [main] ssh 1101 build_fh_pc: fh 0x180351110, dev 000000FE
+  350  341279 [main] ssh 1101 fhandler_process::exists: exists (/proc/1101/fd)
+  964  342243 [main] ssh 1101 fhandler_base::set_flags: flags 0x10000, supplied_bin 0x0
+  255  342498 [main] ssh 1101 fhandler_base::set_flags: O_TEXT/O_BINARY set in flags 0x10000
+  337  342835 [main] ssh 1101 fhandler_base::set_flags: filemode set to binary
+  280  343115 [main] ssh 1101 fhandler_base::set_flags: flags 0x110000, supplied_bin 0x0
+  276  343391 [main] ssh 1101 fhandler_base::set_flags: O_TEXT/O_BINARY set in flags 0x10000
+  257  343648 [main] ssh 1101 fhandler_base::set_flags: filemode set to binary
+  265  343913 [main] ssh 1101 fhandler_process::open: 1 = fhandler_proc::open(0x100000, 00)
+  252  344165 [main] ssh 1101 fhandler_virtual::opendir: 0x80003A4F0 = opendir (/proc/1101/fd)
+30216  374381 [main] ssh 1101 fhandler_process::readdir: 0 = readdir(0x80003A4F0, 0x80003A6B0) (.)
+  178  374559 [main] ssh 1101 fhandler_process::readdir: 0 = readdir(0x80003A4F0, 0x80003A6B0) (..)
+  163  374722 [main] ssh 1101 normalize_posix_path: src /proc/1101/fd/..
+  176  374898 [main] ssh 1101 normalize_posix_path: checking /proc/1101/fd before '..'
+  614  375512 [main] ssh 1101 normalize_posix_path: src /proc/1101/fd
+  160  375672 [main] ssh 1101 normalize_posix_path: /proc/1101/fd = normalize_posix_path (/proc/1101/fd)
+  195  375867 [main] ssh 1101 mount_info::conv_to_win32_path: conv_to_win32_path (/proc/1101/fd)
+  104  375971 [main] ssh 1101 mount_info::conv_to_win32_path: isproc (/proc/1101/fd)
+  105  376076 [main] ssh 1101 fhandler_proc::get_proc_fhandler: get_proc_fhandler(/proc/1101/fd)
+  128  376204 [main] ssh 1101 mount_info::conv_to_win32_path: src_path /proc/1101/fd, dst /proc/1101/fd, flags 0x0, rc 0
+  144  376348 [main] ssh 1101 build_fh_pc: fh 0x180351450, dev 000000FE
+  125  376473 [main] ssh 1101 fhandler_process::exists: exists (/proc/1101/fd)
+  122  376595 [main] ssh 1101 normalize_posix_path: /proc/1101/ = normalize_posix_path (/proc/1101/fd/..)
+  165  376760 [main] ssh 1101 mount_info::conv_to_win32_path: conv_to_win32_path (/proc/1101)
+14019  390779 [main] ssh 1101 mount_info::conv_to_win32_path: isproc (/proc/1101)
+  174  390953 [main] ssh 1101 fhandler_proc::get_proc_fhandler: get_proc_fhandler(/proc/1101)
+  162  391115 [main] ssh 1101 mount_info::conv_to_win32_path: src_path /proc/1101, dst /proc/1101, flags 0x0, rc 0
+  168  391283 [main] ssh 1101 build_fh_pc: fh 0x180351450, dev 000000FE
+  154  391437 [main] ssh 1101 fhandler_process::exists: exists (/proc/1101)
+  174  391611 [main] ssh 1101 build_fh_pc: fh 0x180351450, dev 000000FE
+  109  391720 [main] ssh 1101 stat_worker: (/proc/1101, 0xFFFF9E30, 0x180351450), file_attributes 16
+  165  391885 [main] ssh 1101 fhandler_process::exists: exists (/proc/1101)
+  153  392038 [main] ssh 1101 time: 1650582139 = time(0x0)
+  171  392209 [main] ssh 1101 stat_worker: 0 = (/proc/1101,0xFFFF9E30)
+  156  392365 [main] ssh 1101 fhandler_process::readdir: 0 = readdir(0x80003A4F0, 0x80003A6B0) (0)
+  149  392514 [main] ssh 1101 fhandler_process::readdir: 0 = readdir(0x80003A4F0, 0x80003A6B0) (1)
+  158  392672 [main] ssh 1101 fhandler_process::readdir: 0 = readdir(0x80003A4F0, 0x80003A6B0) (2)
+  168  392840 [main] ssh 1101 fhandler_process::readdir: 0 = readdir(0x80003A4F0, 0x80003A6B0) (3)
+  155  392995 [main] ssh 1101 fhandler_process::readdir: 89 = readdir(0x80003A4F0, 0x80003A6B0) (3)
+  110  393105 [main] ssh 1101 close: close(3)
+  116  393221 [main] ssh 1101 close: 0 = close(3)
+  393  393614 [main] ssh 1101 closedir: 0 = closedir(0x80003A4F0)
+215087  608701 [main] ssh 1101 mount_info::conv_to_posix_path: conv_to_posix_path (C:\Program Files\Git\usr\bin\msys-crypto-1.1.dll, 0x10000000, no-add-slash)
+  345  609046 [main] ssh 1101 normalize_win32_path: C:\Program Files\Git\usr\bin\msys-crypto-1.1.dll = normalize_win32_path (C:\Program Files\Git\usr\bin\msys-crypto-1.1.dll)
+  259  609305 [main] ssh 1101 mount_info::conv_to_posix_path:  mount[0] .. checking / -> C:\Program Files\Git 
+  254  609559 [main] ssh 1101 mount_info::conv_to_posix_path: /usr/bin/msys-crypto-1.1.dll = conv_to_posix_path (C:\Program Files\Git\usr\bin\msys-crypto-1.1.dll)
+  505  610064 [main] ssh 1101 mount_info::conv_to_posix_path: conv_to_posix_path (C:\Program Files\Git\usr\bin\msys-crypto-1.1.dll, 0x10000000, no-add-slash)
+  330  610394 [main] ssh 1101 normalize_win32_path: C:\Program Files\Git\usr\bin\msys-crypto-1.1.dll = normalize_win32_path (C:\Program Files\Git\usr\bin\msys-crypto-1.1.dll)
+  257  610651 [main] ssh 1101 mount_info::conv_to_posix_path:  mount[0] .. checking / -> C:\Program Files\Git 
+  272  610923 [main] ssh 1101 mount_info::conv_to_posix_path: /usr/bin/msys-crypto-1.1.dll = conv_to_posix_path (C:\Program Files\Git\usr\bin\msys-crypto-1.1.dll)
+46413  657336 [main] ssh 1101 normalize_posix_path: src /usr/bin/msys-crypto-1.1.dll
+  170  657506 [main] ssh 1101 normalize_posix_path: /usr/bin/msys-crypto-1.1.dll = normalize_posix_path (/usr/bin/msys-crypto-1.1.dll)
+  145  657651 [main] ssh 1101 mount_info::conv_to_win32_path: conv_to_win32_path (/usr/bin/msys-crypto-1.1.dll)
+  146  657797 [main] ssh 1101 mount_info::conv_to_win32_path: iscygdrive (/usr/bin/msys-crypto-1.1.dll) mount_table->cygdrive /
+  143  657940 [main] ssh 1101 mount_info::cygdrive_win32_path: src '/usr/bin/msys-crypto-1.1.dll', dst ''
+  145  658085 [main] ssh 1101 mount_info::conv_to_win32_path:  mount[0] .. checking /bin -> C:\Program Files\Git\usr\bin 
+  140  658225 [main] ssh 1101 mount_info::conv_to_win32_path:  mount[1] .. checking /tmp -> C:\Users\PC\AppData\Local\Temp 
+  167  658392 [main] ssh 1101 mount_info::conv_to_win32_path:  mount[2] .. checking / -> C:\Program Files\Git 
+  145  658537 [main] ssh 1101 mount_info::conv_to_win32_path: src_path /usr/bin/msys-crypto-1.1.dll, dst C:\Program Files\Git\usr\bin\msys-crypto-1.1.dll, flags 0x32008, rc 0
+  445  658982 [main] ssh 1101 symlink_info::check: 0x0 = NtCreateFile (\??\C:\Program Files\Git\usr\bin\msys-crypto-1.1.dll)
+  230  659212 [main] ssh 1101 symlink_info::check: not a symlink
+  163  659375 [main] ssh 1101 symlink_info::check: 0 = symlink.check(C:\Program Files\Git\usr\bin\msys-crypto-1.1.dll, 0xFFFF9A40) (mount_flags 0x32008, path_flags 0x0)
+  131  659506 [main] ssh 1101 path_conv::check: this->path(C:\Program Files\Git\usr\bin\msys-crypto-1.1.dll), has_acls(1)
+  120  659626 [main] ssh 1101 pathfinder::find: (exists and not dir), take /usr/bin/msys-crypto-1.1.dll
+--- Process 5936 (pid: 1101) loaded C:\Program Files\Git\usr\bin\msys-crypto-1.1.dll at 0000000000400000
+--- Process 5936 (pid: 1101) unloaded DLL at 0000000000400000
+--- Process 5936 (pid: 1101) loaded C:\Program Files\Git\usr\bin\msys-crypto-1.1.dll at 0000000000400000
+--- Process 5936 (pid: 1101) unloaded DLL at 0000000000400000
+ 1710  661336 [main] ssh 1101 dlopen: ret 0x58B980000
+326881  988217 [main] ssh 1101 getpid: 1101 = getpid()
+885807 1874024 [main] ssh 1101 dlopen: ret 0x100400000
+  140 1874164 [main] ssh 1101 seterrno_from_win_error: /usr/src/MSYS2-packages/msys2-runtime/src/msys2-runtime/winsup/cygwin/dlfcn.cc:366 windows error 127
+  120 1874284 [main] ssh 1101 geterrno_from_win_error: windows error 127 == errno 3
+  112 1874396 [main] ssh 1101 dlsym: ret 0x0
+  107 1874503 [main] ssh 1101 open: open(/dev/urandom, 0x0)
+   95 1874598 [main] ssh 1101 normalize_posix_path: src /dev/urandom
+  145 1874743 [main] ssh 1101 normalize_posix_path: /dev/urandom = normalize_posix_path (/dev/urandom)
+  109 1874852 [main] ssh 1101 mount_info::conv_to_win32_path: conv_to_win32_path (/dev/urandom)
+ 9067 1883919 [main] ssh 1101 mount_info::conv_to_win32_path: win32_device_name (/dev/urandom)
+  183 1884102 [main] ssh 1101 mount_info::conv_to_win32_path: src_path /dev/urandom, dst \Device\Null, flags 0x0, rc 0
+  140 1884242 [main] ssh 1101 build_fh_pc: fh 0x180351110, dev 00010009
+  106 1884348 [main] ssh 1101 fhandler_base::open: (\Device\Null, 0x8000)
+  121 1884469 [main] ssh 1101 fhandler_base::set_flags: flags 0x8000, supplied_bin 0x10000
+  103 1884572 [main] ssh 1101 fhandler_base::set_flags: filemode set to text
+  103 1884675 [main] ssh 1101 fhandler_base::open: 0x0 = NtCreateFile (0x2C0, 0x80100000, \Device\Null, io, NULL, 0x0, 0x7, 0x1, 0x4020, NULL, 0)
+  105 1884780 [main] ssh 1101 fhandler_base::open: 1 = fhandler_base::open(\Device\Null, 0x8000)
+  107 1884887 [main] ssh 1101 open: 3 = open(/dev/urandom, 0x8000)
+  106 1884993 [main] ssh 1101 time: 1650582140 = time(0x0)
+  104 1885097 [main] ssh 1101 stat64: entering
+  103 1885200 [main] ssh 1101 normalize_posix_path: src /dev
+  157 1885357 [main] ssh 1101 normalize_posix_path: /dev = normalize_posix_path (/dev)
+  105 1885462 [main] ssh 1101 mount_info::conv_to_win32_path: conv_to_win32_path (/dev)
+  103 1885565 [main] ssh 1101 mount_info::conv_to_win32_path: iscygdrive (/dev) mount_table->cygdrive /
+  104 1885669 [main] ssh 1101 mount_info::cygdrive_win32_path: src '/dev', dst ''
+  103 1885772 [main] ssh 1101 mount_info::conv_to_win32_path:  mount[0] .. checking /bin -> C:\Program Files\Git\usr\bin 
+  104 1885876 [main] ssh 1101 mount_info::conv_to_win32_path:  mount[1] .. checking /tmp -> C:\Users\PC\AppData\Local\Temp 
+  105 1885981 [main] ssh 1101 mount_info::conv_to_win32_path:  mount[2] .. checking / -> C:\Program Files\Git 
+  109 1886090 [main] ssh 1101 mount_info::conv_to_win32_path: src_path /dev, dst C:\Program Files\Git\dev, flags 0x32008, rc 0
+  175 1886265 [main] ssh 1101 symlink_info::check: 0x0 = NtCreateFile (\??\C:\Program Files\Git\dev)
+  139 1886404 [main] ssh 1101 symlink_info::check: not a symlink
+  103 1886507 [main] ssh 1101 symlink_info::check: 0 = symlink.check(C:\Program Files\Git\dev, 0xFFFF9AE0) (mount_flags 0x32008, path_flags 0x0)
+  124 1886631 [main] ssh 1101 build_fh_pc: fh 0x180351450, dev 000000C1
+  104 1886735 [main] ssh 1101 stat_worker: (\??\C:\Program Files\Git\dev, 0x180324C00, 0x180351450), file_attributes 16
+  125 1886860 [main] ssh 1101 fhandler_base::fstat_helper: 0 = fstat (\??\C:\Program Files\Git\dev, 0x180324C00) st_size=0, st_mode=040755, st_ino=22236523160145169st_atim=6258D133.3594692C st_ctim=613982CE.26C27858 st_mtim=613982CE.26C27858 st_birthtim=6139827A.3B7E53AC
+  118 1886978 [main] ssh 1101 stat_worker: 0 = (\??\C:\Program Files\Git\dev,0x180324C00)
+  189 1887167 [main] ssh 1101 fstat64: 0 = fstat(3, 0xFFFFAE00)
+  113 1887280 [main] ssh 1101 read: read(3, 0x800077C30, 32) blocking
+ 3771 1891051 [main] ssh 1101 read: 32 = read(3, 0x800077C30, 32)
+  407 1891458 [main] ssh 1101 getpid: 1101 = getpid()
+27235 1918693 [main] ssh 1101 time: 1650582140 = time(0x0)
+ 1320 1920013 [main] ssh 1101 __get_lcid_from_locale: LCID=0x0409
+89218 2009231 [main] ssh 1101 open: open(/c/Users/PC/.ssh/config, 0x0)
+  111 2009342 [main] ssh 1101 normalize_posix_path: src /c/Users/PC/.ssh/config
+  101 2009443 [main] ssh 1101 normalize_posix_path: /c/Users/PC/.ssh/config = normalize_posix_path (/c/Users/PC/.ssh/config)
+  100 2009543 [main] ssh 1101 mount_info::conv_to_win32_path: conv_to_win32_path (/c/Users/PC/.ssh/config)
+   95 2009638 [main] ssh 1101 mount_info::conv_to_win32_path: iscygdrive (/c/Users/PC/.ssh/config) mount_table->cygdrive /
+   94 2009732 [main] ssh 1101 mount_info::cygdrive_win32_path: src '/c/Users/PC/.ssh/config', dst 'C:\Users\PC\.ssh\config'
+   94 2009826 [main] ssh 1101 mount_info::conv_to_win32_path: cygdrive_win32_path (/c/Users/PC/.ssh/config)
+   95 2009921 [main] ssh 1101 mount_info::conv_to_win32_path: src_path /c/Users/PC/.ssh/config, dst C:\Users\PC\.ssh\config, flags 0x6020, rc 0
+  245 2010166 [main] ssh 1101 symlink_info::check: 0xC0000034 = NtCreateFile (\??\C:\Users\PC\.ssh\config)
+  108 2010274 [main] ssh 1101 symlink_info::check: 0xC0000034 = NtQueryInformationFile (\??\C:\Users\PC\.ssh\config)
+  208 2010482 [main] ssh 1101 symlink_info::check: 0xC0000034 = NtCreateFile (\??\C:\Users\PC\.ssh\config.exe)
+  104 2010586 [main] ssh 1101 symlink_info::check: 0xC0000034 = NtQueryInformationFile (\??\C:\Users\PC\.ssh\config.exe)
+  199 2010785 [main] ssh 1101 symlink_info::check: 0xC0000034 = NtCreateFile (\??\C:\Users\PC\.ssh\config.lnk)
+  117 2010902 [main] ssh 1101 symlink_info::check: 0xC0000034 = NtQueryInformationFile (\??\C:\Users\PC\.ssh\config.lnk)
+  197 2011099 [main] ssh 1101 symlink_info::check: 0xC0000034 = NtCreateFile (\??\C:\Users\PC\.ssh\config.exe.lnk)
+  109 2011208 [main] ssh 1101 symlink_info::check: 0xC0000034 = NtQueryInformationFile (\??\C:\Users\PC\.ssh\config.exe.lnk)
+   99 2011307 [main] ssh 1101 symlink_info::check: 0 = symlink.check(C:\Users\PC\.ssh\config, 0xFFFF8B20) (mount_flags 0x6020, path_flags 0x0)
+  115 2011422 [main] ssh 1101 mount_info::conv_to_win32_path: conv_to_win32_path (/c/Users/PC/.ssh)
+  121 2011543 [main] ssh 1101 mount_info::conv_to_win32_path: iscygdrive (/c/Users/PC/.ssh) mount_table->cygdrive /
+  100 2011643 [main] ssh 1101 mount_info::cygdrive_win32_path: src '/c/Users/PC/.ssh', dst 'C:\Users\PC\.ssh'
+  110 2011753 [main] ssh 1101 mount_info::conv_to_win32_path: cygdrive_win32_path (/c/Users/PC/.ssh)
+  113 2011866 [main] ssh 1101 mount_info::conv_to_win32_path: src_path /c/Users/PC/.ssh, dst C:\Users\PC\.ssh, flags 0x6020, rc 0
+  222 2012088 [main] ssh 1101 symlink_info::check: 0x0 = NtCreateFile (\??\C:\Users\PC\.ssh)
+  137 2012225 [main] ssh 1101 symlink_info::check: not a symlink
+  133 2012358 [main] ssh 1101 symlink_info::check: 0 = symlink.check(C:\Users\PC\.ssh, 0xFFFF8B20) (mount_flags 0x6020, path_flags 0x0)
+  108 2012466 [main] ssh 1101 path_conv::check: this->path(C:\Users\PC\.ssh\config), has_acls(1)
+  142 2012608 [main] ssh 1101 build_fh_pc: fh 0x180351450, dev 000000C3
+  115 2012723 [main] ssh 1101 fhandler_base::open: (\??\C:\Users\PC\.ssh\config, 0x108000)
+  167 2012890 [main] ssh 1101 seterrno_from_nt_status: /usr/src/MSYS2-packages/msys2-runtime/src/msys2-runtime/winsup/cygwin/fhandler.cc:728 status 0xC0000034 -> windows error 2
+  107 2012997 [main] ssh 1101 geterrno_from_win_error: windows error 2 == errno 2
+  101 2013098 [main] ssh 1101 fhandler_base::open: 0xC0000034 = NtCreateFile (0xEA1, 0x80100000, \??\C:\Users\PC\.ssh\config, io, NULL, 0x0, 0x7, 0x1, 0x4020, NULL, 0)
+  103 2013201 [main] ssh 1101 fhandler_base::open: 0 = fhandler_base::open(\??\C:\Users\PC\.ssh\config, 0x108000)
+  102 2013303 [main] ssh 1101 fhandler_base::open_fs: 0 = fhandler_disk_file::open(\??\C:\Users\PC\.ssh\config, 0x8000)
+  113 2013416 [main] ssh 1101 open: -1 = open(/c/Users/PC/.ssh/config, 0x8000), errno 2
+  804 2014220 [main] ssh 1101 open: open(/etc/ssh/ssh_config, 0x0)
+  102 2014322 [main] ssh 1101 normalize_posix_path: src /etc/ssh/ssh_config
+  100 2014422 [main] ssh 1101 normalize_posix_path: /etc/ssh/ssh_config = normalize_posix_path (/etc/ssh/ssh_config)
+  120 2014542 [main] ssh 1101 mount_info::conv_to_win32_path: conv_to_win32_path (/etc/ssh/ssh_config)
+  107 2014649 [main] ssh 1101 mount_info::conv_to_win32_path: iscygdrive (/etc/ssh/ssh_config) mount_table->cygdrive /
+  100 2014749 [main] ssh 1101 mount_info::cygdrive_win32_path: src '/etc/ssh/ssh_config', dst ''
+  100 2014849 [main] ssh 1101 mount_info::conv_to_win32_path:  mount[0] .. checking /bin -> C:\Program Files\Git\usr\bin 
+  105 2014954 [main] ssh 1101 mount_info::conv_to_win32_path:  mount[1] .. checking /tmp -> C:\Users\PC\AppData\Local\Temp 
+  102 2015056 [main] ssh 1101 mount_info::conv_to_win32_path:  mount[2] .. checking / -> C:\Program Files\Git 
+  102 2015158 [main] ssh 1101 mount_info::conv_to_win32_path: src_path /etc/ssh/ssh_config, dst C:\Program Files\Git\etc\ssh\ssh_config, flags 0x32008, rc 0
+  249 2015407 [main] ssh 1101 symlink_info::check: 0x0 = NtCreateFile (\??\C:\Program Files\Git\etc\ssh\ssh_config)
+  138 2015545 [main] ssh 1101 symlink_info::check: not a symlink
+  149 2015694 [main] ssh 1101 symlink_info::check: 0 = symlink.check(C:\Program Files\Git\etc\ssh\ssh_config, 0xFFFF8B20) (mount_flags 0x32008, path_flags 0x0)
+  109 2015803 [main] ssh 1101 path_conv::check: this->path(C:\Program Files\Git\etc\ssh\ssh_config), has_acls(1)
+  128 2015931 [main] ssh 1101 build_fh_pc: fh 0x180351450, dev 000000C3
+  116 2016047 [main] ssh 1101 fhandler_base::open: (\??\C:\Program Files\Git\etc\ssh\ssh_config, 0x108000)
+132328 2148375 [main] ssh 1101 fhandler_base::set_flags: flags 0x108000, supplied_bin 0x10000
+  182 2148557 [main] ssh 1101 fhandler_base::set_flags: filemode set to text
+  161 2148718 [main] ssh 1101 fhandler_base::open: 0x0 = NtCreateFile (0x2C4, 0x80100000, \??\C:\Program Files\Git\etc\ssh\ssh_config, io, NULL, 0x0, 0x7, 0x1, 0x4020, NULL, 0)
+  137 2148855 [main] ssh 1101 fhandler_base::open: 1 = fhandler_base::open(\??\C:\Program Files\Git\etc\ssh\ssh_config, 0x108000)
+  170 2149025 [main] ssh 1101 fhandler_base::open_fs: 1 = fhandler_disk_file::open(\??\C:\Program Files\Git\etc\ssh\ssh_config, 0x8000)
+  140 2149165 [main] ssh 1101 open: 4 = open(/etc/ssh/ssh_config, 0x8000)
+  721 2149886 [main] ssh 1101 _cygwin_istext_for_stdio: fd 4: defaulting to text
+  374 2150260 [main] ssh 1101 getpid: 1101 = getpid()
+32128 2182388 [main] ssh 1101 fhandler_base::fstat_helper: 0 = fstat (\??\C:\Program Files\Git\etc\ssh\ssh_config, 0xFFFF9C80) st_size=1603, st_mode=0100644, st_ino=11821949021862075st_atim=6139827E.18EEB958 st_ctim=6139827E.18EEB958 st_mtim=61252B44.0 st_birthtim=6139827E.18EEB958
+  337 2182725 [main] ssh 1101 fstat64: 0 = fstat(4, 0xFFFF9C80)
+  578 2183303 [main] ssh 1101 fhandler_base::set_flags: flags 0x118000, supplied_bin 0x0
+  300 2183603 [main] ssh 1101 fhandler_base::set_flags: O_TEXT/O_BINARY set in flags 0x10000
+  362 2183965 [main] ssh 1101 fhandler_base::set_flags: filemode set to binary
+  286 2184251 [main] ssh 1101 _setmode: (4<\??\C:\Program Files\Git\etc\ssh\ssh_config>, 0x10000) returning text
+  325 2184576 [main] ssh 1101 read: read(4, 0x800091CB0, 65536) blocking
+  454 2185030 [main] ssh 1101 fhandler_base::read: returning 1603, binary mode
+  317 2185347 [main] ssh 1101 read: 1603 = read(4, 0x800091CB0, 1603)
+  307 2185654 [main] ssh 1101 fhandler_base::set_flags: flags 0x128000, supplied_bin 0x0
+  342 2185996 [main] ssh 1101 fhandler_base::set_flags: O_TEXT/O_BINARY set in flags 0x20000
+  298 2186294 [main] ssh 1101 fhandler_base::set_flags: filemode set to text
+  315 2186609 [main] ssh 1101 _setmode: (4<\??\C:\Program Files\Git\etc\ssh\ssh_config>, 0x100020000) returning binary
+47801 2234410 [main] ssh 1101 fhandler_base::set_flags: flags 0x118000, supplied_bin 0x0
+  114 2234524 [main] ssh 1101 fhandler_base::set_flags: O_TEXT/O_BINARY set in flags 0x10000
+  103 2234627 [main] ssh 1101 fhandler_base::set_flags: filemode set to binary
+  100 2234727 [main] ssh 1101 _setmode: (4<\??\C:\Program Files\Git\etc\ssh\ssh_config>, 0x95D100010000) returning text
+  109 2234836 [main] ssh 1101 read: read(4, 0x800091CB0, 65536) blocking
+  159 2234995 [main] ssh 1101 fhandler_base::read: returning 0, binary mode
+  106 2235101 [main] ssh 1101 read: 0 = read(4, 0x800091CB0, 0)
+  101 2235202 [main] ssh 1101 fhandler_base::set_flags: flags 0x128000, supplied_bin 0x0
+  100 2235302 [main] ssh 1101 fhandler_base::set_flags: O_TEXT/O_BINARY set in flags 0x20000
+  102 2235404 [main] ssh 1101 fhandler_base::set_flags: filemode set to text
+  271 2235675 [main] ssh 1101 _setmode: (4<\??\C:\Program Files\Git\etc\ssh\ssh_config>, 0x100020000) returning binary
+  618 2236293 [main] ssh 1101 close: close(4)
+  116 2236409 [main] ssh 1101 fhandler_base::close: closing '/etc/ssh/ssh_config' handle 0x2C4
+  145 2236554 [main] ssh 1101 close: 0 = close(4)
+--- Process 5936 (pid: 1101) loaded C:\Windows\System32\ws2_32.dll at 00007ff94bae0000
+14051 2250605 [main] ssh 1101 wsock_init: res 0
+  162 2250767 [main] ssh 1101 wsock_init: wVersion 514
+  138 2250905 [main] ssh 1101 wsock_init: wHighVersion 514
+  130 2251035 [main] ssh 1101 wsock_init: szDescription WinSock 2.0
+  129 2251164 [main] ssh 1101 wsock_init: szSystemStatus Running
+  135 2251299 [main] ssh 1101 wsock_init: iMaxSockets 0
+  137 2251436 [main] ssh 1101 wsock_init: iMaxUdpDg 0
+--- Process 5936 (pid: 1101) loaded C:\Windows\System32\NapiNSP.dll at 00007ff939000000
+--- Process 5936 (pid: 1101) loaded C:\Windows\System32\pnrpnsp.dll at 00007ff9387f0000
+--- Process 5936 (pid: 1101) loaded C:\Windows\System32\wshbth.dll at 00007ff945c20000
+--- Process 5936 (pid: 1101) loaded C:\Windows\System32\nlaapi.dll at 00007ff945a70000
+--- Process 5936 (pid: 1101) loaded C:\Windows\System32\IPHLPAPI.DLL at 00007ff949980000
+--- Process 5936 (pid: 1101) loaded C:\Windows\System32\mswsock.dll at 00007ff949c80000
+--- Process 5936 (pid: 1101) loaded C:\Windows\System32\dnsapi.dll at 00007ff9499c0000
+--- Process 5936 (pid: 1101) loaded C:\Windows\System32\nsi.dll at 00007ff94cd90000
+--- Process 5936 (pid: 1101) loaded C:\Windows\System32\winrnr.dll at 00007ff9387d0000
+620967 2872403 [main] ssh 1101 dup_ent: duping servent "ssh", 0x77A3E0
+  653 2873056 [main] ssh 1101 dup_ent: duped servent "ssh", 0x800091BD0
+  365 2873421 [main] ssh 1101 cygwin_getservbyname: 0x800091BD0 = getservbyname (ssh, tcp)
+103712 2977133 [main] ssh 1101 isatty: 1 = isatty(0)
+--- Process 5936 (pid: 1101) loaded C:\Windows\System32\dhcpcsvc6.dll at 00007ff943620000
+--- Process 5936 (pid: 1101) loaded C:\Windows\System32\dhcpcsvc.dll at 00007ff9434d0000
+--- Process 5936 (pid: 1101) loaded C:\Windows\System32\winnsi.dll at 00007ff9440c0000
+--- Process 5936 (pid: 1101) thread 10552 created
+--- Process 5936 (pid: 1101) thread 6516 created
+51448 3028581 [main] ssh 1101 cygwin_gethostname: gethostname wanescript
+60200 3088781 [main] ssh 1101 getpid: 1101 = getpid()
+ 2700 3091481 [main] ssh 1101 getpid: 1101 = getpid()
+  854 3092335 [main] ssh 1101 getpid: 1101 = getpid()
+--- Process 5936 (pid: 1101) loaded C:\Windows\System32\rasadhlp.dll at 00007ff93dc80000
+--- Process 5936 (pid: 1101) loaded C:\Windows\System32\FWPUCLNT.DLL at 00007ff93e1c0000
+--- Process 5936 (pid: 1101) loaded C:\Windows\System32\bcrypt.dll at 00007ff94ae50000
+148351 3240686 [main] ssh 1101 getpid: 1101 = getpid()
+ 5449 3246135 [main] ssh 1101 getpid: 1101 = getpid()
+  399 3246534 [main] ssh 1101 cygwin_socket: socket (2, 1 (flags 0x0), 0)
+39642 3286176 [main] ssh 1101 build_fh_pc: fh 0x180351A60, dev 001E0024
+24095 3310271 [main] ssh 1101 fhandler_base::set_flags: flags 0x10002, supplied_bin 0x0
+  337 3310608 [main] ssh 1101 fhandler_base::set_flags: O_TEXT/O_BINARY set in flags 0x10000
+  299 3310907 [main] ssh 1101 fhandler_base::set_flags: filemode set to binary
+  369 3311276 [main] ssh 1101 cygwin_socket: 4 = socket(2, 1 (flags 0x0), 0)
+  275 3311551 [main] ssh 1101 fcntl64: fcntl(4, 2, ...)
+  328 3311879 [main] ssh 1101 fhandler_base::set_close_on_exec: set close_on_exec for  to 1
+  283 3312162 [main] ssh 1101 fcntl64: 0 = fcntl(4, 2, 0x1)
+  371 3312533 [main] ssh 1101 cygwin_getsockname: 0 =getsockname (4, 0xFFFFA6D0, 0xFFFFA6CC)
+  321 3312854 [main] ssh 1101 getpid: 1101 = getpid()
+  402 3313256 [main] ssh 1101 fhandler_socket_inet::setsockopt: setsockopt optval=48
+  300 3313556 [main] ssh 1101 cygwin_setsockopt: 0 = setsockopt(4, 0, 0x3, 0xFFFFA798, 4)
+--- Process 5936 (pid: 1101) thread 11960 created
+2480361 5793917 [main] ssh 1101 __set_errno: void __set_winsock_errno(const char*, int):206 setting errno 111
+  492 5794409 [main] ssh 1101 __set_winsock_errno: connect:821 - winsock error 10061 -> errno 111
+  306 5794715 [main] ssh 1101 cygwin_connect: -1 = connect(4, 0x800092690, 16), errno 111
+  272 5794987 [main] ssh 1101 getpid: 1101 = getpid()
+  326 5795313 [main] ssh 1101 close: close(4)
+  468 5795781 [main] ssh 1101 close: 0 = close(4)
+  331 5796112 [main] ssh 1101 getpid: 1101 = getpid()
+ 1675 5797787 [main] ssh 1101 fhandler_console::write: 0xFFFF9910, 63
+ 1788 5799575 [main] ssh 1101 fhandler_console::write: 63 = fhandler_console::write(...)
+  276 5799851 [main] ssh 1101 write: 63 = write(2, 0xFFFF9910, 63)
+ 2682 5802533 [main] ssh 1101 time: 1650582144 = time(0x0)
+  328 5802861 [main] ssh 1101 fstat64: 0 = fstat(3, 0xFFFFAF70)
+  343 5803204 [main] ssh 1101 close: close(3)
+  295 5803499 [main] ssh 1101 fhandler_base::close: closing '/dev/urandom' handle 0x2C0
+  336 5803835 [main] ssh 1101 close: 0 = close(3)
+323813 6127648 [main] ssh 1101 do_exit: do_exit (65280), exit_state 1
+  132 6127780 [main] ssh 1101 void: 0x0 = signal (20, 0x1)
+  110 6127890 [main] ssh 1101 void: 0x0 = signal (1, 0x1)
+   95 6127985 [main] ssh 1101 void: 0x0 = signal (2, 0x1)
+   96 6128081 [main] ssh 1101 void: 0x0 = signal (3, 0x1)
+  103 6128184 [main] ssh 1101 fhandler_base::close_with_arch: line 1184:  /dev/cons0<0x180350390> usecount + -1 = 3
+   88 6128272 [main] ssh 1101 fhandler_base::close_with_arch: not closing archetype
+   93 6128365 [main] ssh 1101 fhandler_base::close_with_arch: line 1184:  /dev/cons0<0x180350390> usecount + -1 = 2
+   90 6128455 [main] ssh 1101 fhandler_base::close_with_arch: not closing archetype
+  104 6128559 [main] ssh 1101 fhandler_base::close_with_arch: line 1184:  /dev/cons0<0x180350390> usecount + -1 = 1
+   87 6128646 [main] ssh 1101 fhandler_base::close_with_arch: not closing archetype
+   91 6128737 [main] ssh 1101 init_cygheap::close_ctty: closing cygheap->ctty 0x180350390
+   89 6128826 [main] ssh 1101 fhandler_base::close_with_arch: closing passed in archetype 0x0, usecount 0
+   90 6128916 [main] ssh 1101 fhandler_console::close: closing: 0x188, 0x18C
+  270 6129186 [main] ssh 1101 fhandler_console::free_console: freed console, res 1
+   94 6129280 [main] ssh 1101 dtable::delete_archetype: deleting element 0 for /dev/cons0(3/0)
+  102 6129382 [main] ssh 1101 getpid: 1101 = getpid()
+   88 6129470 [main] ssh 1101 proc_terminate: nprocs 0
+  101 6129571 [main] ssh 1101 proc_terminate: leaving
+  122 6129693 [main] ssh 1101 pinfo::exit: Calling dlls.cleanup_forkables n 0xFF00, exitcode 0xFF
+  112 6129805 [main] ssh 1101 pinfo::exit: Calling ExitProcess n 0xFF00, exitcode 0xFF
+--- Process 5936 (pid: 1101) thread 11960 exited with status 0xff
+--- Process 5936 (pid: 1101) thread 8612 exited with status 0xff
+--- Process 5936 (pid: 1101) thread 12196 exited with status 0xff
+--- Process 5936 (pid: 1101) thread 7164 exited with status 0xff
+--- Process 5936 (pid: 1101) thread 10552 exited with status 0xff
+--- Process 5936 (pid: 1101) thread 8676 exited with status 0xff
+--- Process 5936 (pid: 1101) thread 12372 exited with status 0xff
+--- Process 5936 (pid: 1101) exited with status 0xff

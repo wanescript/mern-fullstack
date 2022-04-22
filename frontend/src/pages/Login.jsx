@@ -56,6 +56,7 @@ dispatch(login(userData))
   return (
   <>
   <section className="heading">
+    <h6>Please register if you dont have an account.</h6>
     <h1>
     <AiOutlineLogin/>Login
     </h1>

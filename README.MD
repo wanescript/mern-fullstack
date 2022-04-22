@@ -36,7 +36,7 @@ To run both front-end and back-end simultaneously.
 
 ====================
 
-RESOURCES: Software used for this project.
+**RESOURCES**: Software used for this project.
 
 
 [React](https://reactjs.org "Javascript front-end framework.")

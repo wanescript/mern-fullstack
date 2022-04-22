@@ -42,6 +42,7 @@ useEffect (()=>{
 
   const onSubmit=(e)=> {
 e.preventDefault()
+
 if(password !== password2) {
   toast.error('Passwords do not match')
 }else {

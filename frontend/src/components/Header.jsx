@@ -45,12 +45,12 @@ const onLogout = ()=> {
                 </>
                 )}
         
-            <li>
+            {/* <li>
                 <Link to='/notes-dashboard'>
                     <AiOutlineSnippets/>Notes
                 </Link>
             </li>
-            
+             */}
             
         </ul>
     </header>
