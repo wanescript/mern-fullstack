@@ -23,10 +23,10 @@ export const createNotes = createAsyncThunk('notes/create', async(noteData, thun
 
 
 //Get user goals
-export const getNotes = createAsyncThunk('notes/getAll', async (_,thunkAPI)=>{
+export const getNotes = createAsyncThunk('notes/getAll', async (_, thunkAPI)=>{
     try{
         const token = thunkAPI.getState().auth.user.token
-        return await notesService.createNotes(token)
+        return await notesService.getNotes(token)
     }catch(error){
         const message = (error.response && error.response.data && error.response.data.message) || error.message||
         error.toString()
@@ -35,7 +35,8 @@ export const getNotes = createAsyncThunk('notes/getAll', async (_,thunkAPI)=>{
 })
 
 export const noteSlice = createSlice({
-    name: 'notes',
+    //notes originally changing because of potential naming variable conflicts
+    name: 'note',
     initialState,
     reducers: {
         reset: (state)=> initialState
