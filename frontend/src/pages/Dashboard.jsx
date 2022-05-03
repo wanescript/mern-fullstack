@@ -5,6 +5,7 @@ import{useDispatch, useSelector} from 'react-redux'
 import NotesForm from '../components/NotesForm'
 import Spinner from'../components/Spinner'
 import {getNotes, reset} from '../features/notes/notesSlice'
+import NoteItems from '../components/NoteItems'
 
 
 function Dashboard() {
@@ -45,7 +46,17 @@ function Dashboard() {
      <h1>Welcome {user && user.name}</h1>
      <p>Notes dashboard</p>
    </section>
+
    <NotesForm/>
+   <section className='content'>
+     {notes.length > 0 ? (
+       <div className='notes'>
+         {notes.map((note)=>(
+           <NoteItems key={note._id} note={note}/>
+         ))}
+       </div>
+     ):(<h3>You have not created not notes.</h3>)}
+   </section>
    </>
   )
 }
