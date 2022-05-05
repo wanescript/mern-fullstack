@@ -62,7 +62,7 @@ const updateNotes = asyncHandler (async(req,res)=>{
 
     }
 
-    const updatedNOtes = await Notes.findByIdAndUpdate(req.params.id,req.body,{new:true})
+    const updatedNotes = await Notes.findByIdAndUpdate(req.params.id,req.body,{new:true})
 
     res.status(200).json(updatedNotes)
     // console.log(`update notes function is coming from the controller folder.${req.params.id}`)

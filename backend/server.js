@@ -1,16 +1,15 @@
 const express = require('express')
 const path = require('path')
-const app = express()
 const PORT = process.env.PORT ||5000
 const dotenv = require('dotenv').config()
-const {getGoals,setGoals,updateGoals,deleteGoals}= require('./controllers/notesController')
 const {errorHandler} = require('./middleware/errorMiddleware')
 const connectDb = require('./config/db')
-const { sendFile } = require('express/lib/response')
+
 
 //connect function for database.
 connectDb()
 
+const app = express()
 //two lines below enables you to read form input
 app.use(express.json())
 app.use(express.urlencoded({extended:false}))
