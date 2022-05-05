@@ -1,6 +1,6 @@
 const express = require('express')
 const path = require('path')
-const PORT = process.env.PORT ||5000
+const port = process.env.PORT ||5000
 const dotenv = require('dotenv').config()
 const {errorHandler} = require('./middleware/errorMiddleware')
 const connectDb = require('./config/db')
@@ -31,4 +31,4 @@ if(process.env.NODE_ENV === 'production') {
 //below is the async error handling middleware.
 app.use(errorHandler)
 
-app.listen(PORT,()=>{`Server is up and running on localhost://${PORT}`})
+app.listen(port,()=>{`Server is up and running on localhost://${port}`})
